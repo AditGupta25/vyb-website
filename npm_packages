@@ -1,0 +1,7 @@
+# Browserify is required.
+# You can install it globally and delete from here.
+# After adding module here run command 'rake npm:install'
+# https://github.com/endenwer/npm-rails - for build details
+
+npm 'browserify', require: false, development: true
+npm 'web3', '1.0.0-beta.27'

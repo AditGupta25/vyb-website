@@ -1,0 +1,45 @@
+.timeline {
+  background: transparent;
+  border-left: 2px solid $faded-blue;
+  padding: 20px;
+  margin: 0 0 0 8px;
+  li {
+    margin: 0;
+  }
+  h3 {
+    color: $ultra-turquoise;
+    font-size: 20px;
+    font-weight: lighter;
+  }
+  .event {
+    border-bottom: 1px dashed lightgray;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    position: relative;
+    &:last-of-type {
+      padding-bottom: 0;
+      margin-bottom: 0;
+      border: none;
+    }
+    &:before, &:after {
+      position: absolute;
+      display: block;
+      top: 0;
+    }
+    &:before {
+      left: -155px;
+      content: attr(data-date);
+      text-align: right;
+      font-weight: 100;
+    }
+    &:after {
+      left: -33px;
+      color: $ultra-turquoise;
+      font-family: 'FontAwesome';
+      font-size: 24px;
+      content: "\f111";
+      top: -6px;
+      padding: 0 2px;
+    }
+  }
+}

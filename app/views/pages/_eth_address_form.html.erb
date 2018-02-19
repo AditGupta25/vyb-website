@@ -1,0 +1,11 @@
+<div class="alert alert-danger" role="alert" style="display: none">
+  Invalid ETH address!
+</div>
+<div>
+  <%= form_for current_user, url: path do |f| %>
+    <%= f.label('Ethereum Address:') %>
+    <%= f.text_field :eth_address, class: 'form-control' %>
+    <br/>
+    <%= f.submit 'Submit', class: 'btn btn-primary', data: { disable_with: false } %>
+  <% end %>
+</div>

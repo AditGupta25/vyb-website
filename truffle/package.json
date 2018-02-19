@@ -1,0 +1,28 @@
+{
+  "name": "ManeStreemContracts",
+  "version": "1.0.0",
+  "description": "",
+  "main": " ",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test",
+    "staging": "truffle migrate --network staging"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevjuicLLC/EpigentekContracts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevjuicLLC/EpigentekContracts/issues"
+  },
+  "homepage": "https://github.com/DevjuicLLC/EpigentekContracts#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1"
+  }
+}

@@ -1,0 +1,119 @@
+.lift-shadow {
+  box-shadow: 1px 1px 25px 2px rgba(220, 220, 220, 0.6);
+}
+
+.translucent {
+  opacity: 0.6;
+}
+
+.break-containment {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.videoWrapper {
+  z-index: 99;
+}
+
+ul.no-style {
+  list-style: none;
+}
+li {
+  margin: 0 0 20px 0;
+}
+
+.navbar {
+  li.nav-item {
+    margin: 0 0 10px 0;
+    margin-bottom: 0;
+    .btn {
+      border-radius: 5px;
+      font-size: 14px;
+    }
+    &.nav-item.active {
+      a {
+        font-weight: bold;
+        color: white;
+        &.dropdown-item {
+          color: black !important;
+          font-weight: 400 !important;
+        }
+      }
+    }
+  }
+}
+
+.card {
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+  border-radius: 0;
+}
+
+.navbar-brand img {
+  margin-top: -1px;
+}
+
+.nav-link {
+  color: $royal-blue;
+}
+.nav-link.active {
+  color: $royal-blue;
+  border-bottom: 2px solid $royal-blue;
+}
+
+#accordion, #accordion_2, #accordion_3, #accordion_4, #accordion_5 {
+  box-shadow: 0px 1px 10px 0px transparentize($medium-gray, 0.6);
+  .card {
+    border-radius: 0;
+    &:not(:first-of-type) {
+      border-top: 0;
+    }
+    a {
+      color: black;
+      text-decoration: none;
+      position: relative;
+      &::after {
+        color: $medium-gray;
+        position: absolute;
+        font-family: 'Ionicons';
+        font-size: 20px;
+        content: "\f123";
+        top: 50%;
+        transform: translateY(-50%);
+        right: 30px;
+      }
+      &.collapsed::after {
+        content: "\f125";
+      }
+    }
+    h5 {
+      color: $turquoise;
+      font-weight: lighter;
+      padding: 0 30px 0 0;
+    }
+  }
+  .card-header {
+    background-color: white;
+  }
+}
+.crowdsale-end {
+  .hours {
+    font-size: 25px;
+  }
+}
+.exchange-rate {
+  .rate {
+    font-size: 25px;
+  }
+}
+.image_add_FRN {
+  background: image-url("add-FRN.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 200px;
+}
+
+.header a .fa {
+  margin-top: 5px !important;
+}

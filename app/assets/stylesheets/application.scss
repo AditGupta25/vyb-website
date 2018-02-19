@@ -1,0 +1,20 @@
+@import "custom-variables";
+@import "bootstrap";
+@import "colors";
+@import "layout";
+@import "basics";
+@import "typography";
+@import "devise_pages";
+@import "home-layout";
+@import "jumbotron";
+@import "timeline";
+@import "desktop_specs";
+@import "ico";
+@import "dataTables/jquery.dataTables";
+
+.blank {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+}

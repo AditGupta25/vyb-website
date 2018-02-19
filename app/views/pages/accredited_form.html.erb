@@ -1,0 +1,24 @@
+<% provide(:ico, "active") %>
+
+<section class="blog-post text-center">
+  <div class="card card-body">
+    <% if flash[:error].present? %>
+      <div class="alert alert-danger" role="alert">
+        <%= flash[:error].html_safe %>
+      </div>
+    <% end %>
+
+    <%= form_tag accredited_form_post_path do %>
+
+      <p>Do you agree to the <%= link_to 'terms of service', privacy_path, target: '_blank' %>?</p>
+      <%= radio_button_tag(:terms, "yes") %>
+      <%= label_tag(:terms_yes, "Yes") %>
+      <%= radio_button_tag(:terms, "no") %>
+      <%= label_tag(:terms_no, "No") %>
+      <br/>
+
+      <%= submit_tag 'Continue', class: 'btn btn-primary mt-2' %>
+    <% end %>
+  </div>
+
+</section>

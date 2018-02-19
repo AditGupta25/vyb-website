@@ -1,0 +1,71 @@
+@include media-breakpoint-up(lg) {
+  .headline-video {
+    display: block;
+  }
+  .headline-image {
+    display: none;
+  }
+  .registrations, .sessions, .passwords {
+     .headline-image {
+      display: block;
+    }
+  }
+  .jumbotron {
+    height: 100vh;
+    padding: 6rem 0rem 4rem 4rem;
+    .header.main-headline {
+      padding: 0 60px 0 0;
+      h1 {
+        font-size: 39px;
+        font-weight: 400;
+      }
+      .btn {
+        padding: 10px 60px;
+      }
+    }
+    .featured-box {
+	    border-radius: 11px 0 0 11px;
+	    min-width: 400px;
+      max-width: 525px;
+	    .rate {
+	      font-size: 32px;
+	    }
+	    .hours {
+	      font-size: 48px;
+	    }
+	  }
+  }
+  .content {
+  	.text {
+	    margin-right: 500px;
+	  }
+    &.rightside-picture, &.leftside-picture {
+      .image {
+        height: 100%;
+        img {
+          height: 700px;
+        }
+      }
+    }
+  }
+
+  .timeline {
+    margin: 0 0 0 8px;
+  }
+  .content, .team, .roadmap {
+    padding: 50px 90px;
+  }
+  .faq {
+    .main {
+      padding: 50px 50px;
+    }
+  }
+  .features-box {
+      padding: 30px 90px;
+  }
+  .title-bar {
+    &.features, &.why-blockchain, &.team, &.roadmap {
+      padding: 30px 90px;
+    }
+  }
+}

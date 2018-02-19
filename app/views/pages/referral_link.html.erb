@@ -1,0 +1,6 @@
+<% provide(:ico, "active") %>
+
+<section class="blog-post">
+  <h3>Here is your referral link</h3>
+  <strong><em><%= "#{ENV['base_url']}/users/sign_up?ref_id=#{current_user.referral_id}" %></em></strong>
+</section>

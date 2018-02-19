@@ -1,0 +1,22 @@
+<% provide(:ico, "active") %>
+
+<section class="blog-post">
+  <table id="user-info-table" class="table table-hover">
+    <thead>
+      <tr>
+        <td>Email</td>
+        <td>Sign in count</td>
+        <td>Last sign in</td>
+      </tr>
+    </thead>
+    <tbody>
+      <% @user_info.each do |user| %>
+        <tr>
+          <td><%= user[0] %></td>
+          <td><%= user[1] %></td>
+          <td><%= user[2] %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+</section>

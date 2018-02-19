@@ -1,0 +1,7 @@
+.sessions, .registrations, .passwords {
+  .form-control {
+    background: transparentize(black, 0.7);
+    border: black;
+    color: white;
+  }
+}

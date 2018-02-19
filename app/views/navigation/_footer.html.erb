@@ -1,0 +1,32 @@
+<section id='footer' class='d-flex flex-column flex-md-row justify-content-around align-items-center align-items-md-start white-bg'>
+	<div class='flex-column text-center'>
+		<p>Find Us on Social Media</p>
+		<div class='d-flex flex-row justify-content-center pb-2'>
+			<a href="https://www.facebook.com/ManeStreemApp" target='_blank' class='mr-4'><i class='ion-social-facebook royal-blue'></i></a>
+			<a href="https://twitter.com/Manestreem" target='_blank' class='mr-4'><i class='ion-social-twitter royal-blue'></i></a>
+		</div>
+		<div class='d-flex flex-row justify-content-center'>
+			<a href="https://www.linkedin.com/company/manestreem" target='_blank' class='mr-4'><i class='ion-social-linkedin royal-blue'></i></a><br>
+			<a href="https://www.instagram.com/manestreemapp/" target='_blank' class='mr-4'><i class='ion-social-instagram royal-blue'></i></a><br>
+		</div>
+	</div>
+
+	<!-- <div class='flex-column text-center'>
+		<p>More Information</p>
+	</div> -->
+
+	<div class='flex-column text-center'>
+		<p>Site Map</p>
+		<span><%= link_to 'Home', root_path %></span><br>
+		<span><%= link_to 'Whitepaper', asset_path("Manestreem_Express Whitepaper_ManeStreem Express WhitePaper V5 2018-VIEW.pdf"), target: :_blank %></span><br>
+	</div>
+
+	<div class='flex-column text-center'>
+		<a class="navbar-brand" href="/"><%= image_tag 'black_logo.png', class: 'black_circle_logo' %></a><br>
+		<span><%= mail_to 'press@manecoin.io' %></span><br>
+		<span><%= mail_to 'info@manecoin.io' %></span><br>
+	</div>
+</section>
+<section class='d-flex pb-2 flex-row justify-content-center black-bg'>
+	<span class='white'><small>©ManeStreem 2018. All rights reserved.</small></span>
+</section>
