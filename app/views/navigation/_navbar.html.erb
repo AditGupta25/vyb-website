@@ -1,12 +1,12 @@
 <nav class="navbar navbar-expand-lg fixed-top navbar-dark pl-5 pr-5">
   <a class="navbar-brand " href="/">
-    <%= image_tag 'white_logo.png', class: 'white_circle_logo' %>
+    <%= image_tag 'vybLogo.png', class: 'white_circle_logo' %>
     <div class='logo_text d-flex flex-column justify-content-center'>
       <span class='d-flex flex-row justify-content-start'>
-        <span class='turquoise thick-text logo_name'>mane</span>
-        <span class='white thick-text logo_name'>coin</span>
+        <!--<span class='purple thick-text logo_name'>VyB</span>-->
+        <!--<span class='white thick-text logo_name'>coin</span>-->
       </span>
-      <span class='faded-blue logo_tagline'>by ManeStreem</span>
+      <!--<span class='faded-blue logo_tagline'>by ManeStreem</span>-->
     </div>
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,6 +17,7 @@
       <li class="nav-item">
         <%= link_to 'Whitepaper', asset_path("Manestreem_Express Whitepaper_ManeStreem Express WhitePaper V5 2018-VIEW.pdf"), target: :_blank, class: 'nav-link' %>
       </li>
+      <!--
       <% if current_user.present? %>
         <li class="nav-item">
           <%= link_to 'ICO', '/ico', class: 'nav-link' %>
@@ -29,5 +30,6 @@
           <%= link_to 'Join ICO', new_user_registration_path, class: 'btn turquoise-btn my-2 my-sm-0' %>
         </li>
       <% end %>
+      -->
   </div>
 </nav>
