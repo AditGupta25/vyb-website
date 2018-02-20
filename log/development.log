@@ -530,3 +530,40 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 127ms (Views: 122.5ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-02-20 18:09:57 -0500
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_featured_in.html.erb (4.4ms)
+  Rendered pages/_what_is_manestreem.html.erb (1.5ms)
+  Rendered pages/_beauty_on_tap.html.erb (0.2ms)
+  Rendered pages/_features.html.erb (2.9ms)
+  Rendered pages/_why_blockchain.html.erb (0.3ms)
+  Rendered pages/_pricing.html.erb (0.3ms)
+  Rendered pages/_team.html.erb (9.8ms)
+  Rendered pages/_roadmap.html.erb (0.7ms)
+  Rendered pages/home.html.erb within layouts/application (5071.1ms)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /Users/Adit/Desktop/Vyb/vyb-website/public/packs
+  Rendered navigation/_navbar.html.erb (14.6ms)
+  Rendered navigation/_footer.html.erb (2.6ms)
+Completed 200 OK in 9336ms (Views: 9308.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-20 18:10:10 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_featured_in.html.erb (5.0ms)
+  Rendered pages/_what_is_manestreem.html.erb (1.4ms)
+  Rendered pages/_beauty_on_tap.html.erb (0.3ms)
+  Rendered pages/_features.html.erb (3.9ms)
+  Rendered pages/_why_blockchain.html.erb (0.3ms)
+  Rendered pages/_pricing.html.erb (0.5ms)
+  Rendered pages/_team.html.erb (11.5ms)
+  Rendered pages/_roadmap.html.erb (0.6ms)
+  Rendered pages/home.html.erb within layouts/application (44.0ms)
+  Rendered navigation/_navbar.html.erb (2.2ms)
+  Rendered navigation/_footer.html.erb (1.7ms)
+Completed 200 OK in 123ms (Views: 120.5ms | ActiveRecord: 0.0ms)
+
+
