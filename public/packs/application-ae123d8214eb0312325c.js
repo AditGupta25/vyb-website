@@ -29340,7 +29340,7 @@ exports.default = async function () {
     if (networkId === 1) {
       alert('You are not on the Main Ethereum Network. Some information on this site will not load correctly');
     } else {
-      alert('We are testing on Ropsten');
+      // alert('We are testing on Ropsten');
     }
   }
 };
