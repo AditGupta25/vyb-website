@@ -18,7 +18,7 @@ App.init = ->
 
   if $('.home').length > 0
     window.sr = ScrollReveal();
-    sr.reveal('.reveal-jumbotron', { duration: 800 });
+    sr.reveal('.reveal-jumbotron', { duration: 1200, origin: 'right', distance:'1000px' });
     sr.reveal('.reveal-card-left', { duration: 1200, origin: 'left', distance: '120px'});
     sr.reveal('.reveal-card-right', { duration: 1200, origin: 'right', distance: '120px'});
 
