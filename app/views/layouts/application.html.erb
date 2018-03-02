@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" >
 
+    <%= favicon_link_tag "vybLogo.png" %>
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600" rel="stylesheet">
     <link href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -33,10 +34,14 @@
     <meta name="turbolinks-cache-control" content="no-cache">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <!--<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114102210-1"></script>-->
-    <!--<script>-->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114102210-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-    <!--</script>-->
+      gtag('config', 'UA-114102210-1');
+    </script>
 
   </head>
 

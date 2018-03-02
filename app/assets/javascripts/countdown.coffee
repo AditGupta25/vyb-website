@@ -2,7 +2,7 @@ class App.Countdown
   initializeCountdown: ->
     # "Feb 28, 2018 06:00:00" -> Value in contract for ICO end
     # Changed to "Jan 7, 2018 00:00:00 UTC" per Saransh
-    countdownEnd = 1517875200000
+    countdownEnd = 1520985599000
     updateCountdown(countdownEnd)
     window.countdown = setInterval((->
       distance = updateCountdown(countdownEnd)

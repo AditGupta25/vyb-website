@@ -17,6 +17,12 @@
     border-radius: 10px;
     background: $faded-blue;
   }
+  .countdown {
+    .amount, .divider {
+      font-size: 32px;
+      font-weight: bold;
+    }
+  }
 }
 
 @media (min-width: 768px) {

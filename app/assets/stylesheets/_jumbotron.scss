@@ -29,9 +29,13 @@
   background: linear-gradient(to right, rgba(49,27,146,0.75) 0%,rgba(33,150,243,0.75) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#311b92', endColorstr='#2196f3',GradientType=1 ); /* IE6-9 */
   color: white;
-  height: 100vh;
+  min-height: 100vh;
   padding: 8rem 2rem;
   position: relative;
+  h1 {
+    margin-top: 20px;
+    font-weight: bold;
+  }
   .header {
     padding: 30px 0 0 0;
     .btn {
@@ -45,6 +49,7 @@
     }
   }
   .social-media-links {
+    margin-bottom: 40px;
     a {
       margin-right: 30px;
     }
@@ -58,10 +63,10 @@
     margin-top: 60px;
   }
   .featured-box {
-    background: transparentize(black, 0.5);
-    border-radius: 11px;
-    box-shadow:  10px 25px 14px 0px rgba(0,0,0,0.2);
-    padding: 15px 0;
+    background: transparentize($dark-blue, 0.2);
+    border-radius: 0px;
+    // box-shadow:  10px 25px 14px 0px rgba(0,0,0,0.2);
+    padding-bottom: 15px;
     width: 100%;
     small {
       font-size: 13px;
@@ -70,6 +75,22 @@
     span {
       display: block;
       padding: 0 30px;
+    }
+    .main-countdown {
+      padding: 10px;
+      .rate {
+        font-size: 18px;
+      }
+      .hours {
+        font-size: 24px;
+        font-weight: bold;
+      }
+    }
+    .top-section {
+      background: -webkit-gradient(linear, left top, right top, from(rgba(49, 27, 146, 0.25)), to(rgba(33, 150, 243, 0.5)));
+      background: linear-gradient(to right, rgba(49, 27, 146, 0.25) 0%, rgba(33, 150, 243, 0.55) 100%);
+      padding-top: 30px;
+      padding-bottom: 30px;
     }
     .progress-row {
       background: transparentize(black, 0.7);

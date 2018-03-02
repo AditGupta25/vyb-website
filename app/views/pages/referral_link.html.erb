@@ -1,6 +1,7 @@
 <% provide(:ico, "active") %>
 
 <section class="blog-post">
-  <h3>Here is your referral link</h3>
+  <h3><b>Here is your referral link</b></h3>
+  <p>Share this link, and you will earn a bonus whenever someone signs up with it and purchases MANE coins.</p>
   <strong><em><%= "#{ENV['base_url']}/users/sign_up?ref_id=#{current_user.referral_id}" %></em></strong>
 </section>

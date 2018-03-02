@@ -1,1325 +1,558 @@
-Started GET "/" for 127.0.0.1 at 2018-02-18 00:23:48 -0500
-  
-PG::ConnectionBad (could not connect to server: No such file or directory
-	Is the server running locally and accepting
-	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
-):
-  
-pg (0.18.4) lib/pg.rb:45:in `initialize'
-pg (0.18.4) lib/pg.rb:45:in `new'
-pg (0.18.4) lib/pg.rb:45:in `connect'
-activerecord (5.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:697:in `connect'
-activerecord (5.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:221:in `initialize'
-activerecord (5.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:38:in `new'
-activerecord (5.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:38:in `postgresql_connection'
-activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:759:in `new_connection'
-activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:803:in `checkout_new_connection'
-activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:782:in `try_to_checkout_new_connection'
-activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:743:in `acquire_connection'
-activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:500:in `checkout'
-activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:374:in `connection'
-activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `retrieve_connection'
-activerecord (5.1.5) lib/active_record/connection_handling.rb:116:in `retrieve_connection'
-activerecord (5.1.5) lib/active_record/connection_handling.rb:88:in `connection'
-activerecord (5.1.5) lib/active_record/migration.rb:562:in `connection'
-activerecord (5.1.5) lib/active_record/migration.rb:553:in `call'
-actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
-activesupport (5.1.5) lib/active_support/callbacks.rb:97:in `run_callbacks'
-actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
-actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
-actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
-web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
-web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
-web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
-web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
-actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
-railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
-railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
-activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
-activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
-activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
-railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
-sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
-actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
-actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
-rack (2.0.4) lib/rack/method_override.rb:22:in `call'
-rack (2.0.4) lib/rack/runtime.rb:22:in `call'
-activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
-actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
-actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
-rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
-webpacker (3.2.2) lib/webpacker/dev_server_proxy.rb:18:in `perform_request'
-rack-proxy (0.6.3) lib/rack/proxy.rb:57:in `call'
-railties (5.1.5) lib/rails/engine.rb:522:in `call'
-puma (3.11.2) lib/puma/configuration.rb:225:in `call'
-puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
-puma (3.11.2) lib/puma/server.rb:438:in `process_client'
-puma (3.11.2) lib/puma/server.rb:302:in `block in run'
-puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
-Started GET "/" for 127.0.0.1 at 2018-02-18 00:25:30 -0500
-  
-PG::ConnectionBad (could not connect to server: No such file or directory
-	Is the server running locally and accepting
-	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
-):
-  
-pg (0.18.4) lib/pg.rb:45:in `initialize'
-pg (0.18.4) lib/pg.rb:45:in `new'
-pg (0.18.4) lib/pg.rb:45:in `connect'
-activerecord (5.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:697:in `connect'
-activerecord (5.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:221:in `initialize'
-activerecord (5.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:38:in `new'
-activerecord (5.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:38:in `postgresql_connection'
-activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:759:in `new_connection'
-activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:803:in `checkout_new_connection'
-activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:782:in `try_to_checkout_new_connection'
-activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:743:in `acquire_connection'
-activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:500:in `checkout'
-activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:374:in `connection'
-activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `retrieve_connection'
-activerecord (5.1.5) lib/active_record/connection_handling.rb:116:in `retrieve_connection'
-activerecord (5.1.5) lib/active_record/connection_handling.rb:88:in `connection'
-activerecord (5.1.5) lib/active_record/migration.rb:562:in `connection'
-activerecord (5.1.5) lib/active_record/migration.rb:553:in `call'
-actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
-activesupport (5.1.5) lib/active_support/callbacks.rb:97:in `run_callbacks'
-actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
-actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
-actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
-web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
-web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
-web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
-web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
-actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
-railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
-railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
-activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
-activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
-activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
-railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
-sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
-actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
-actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
-rack (2.0.4) lib/rack/method_override.rb:22:in `call'
-rack (2.0.4) lib/rack/runtime.rb:22:in `call'
-activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
-actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
-actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
-rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
-webpacker (3.2.2) lib/webpacker/dev_server_proxy.rb:18:in `perform_request'
-rack-proxy (0.6.3) lib/rack/proxy.rb:57:in `call'
-railties (5.1.5) lib/rails/engine.rb:522:in `call'
-puma (3.11.2) lib/puma/configuration.rb:225:in `call'
-puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
-puma (3.11.2) lib/puma/server.rb:438:in `process_client'
-puma (3.11.2) lib/puma/server.rb:302:in `block in run'
-puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
-Started GET "/" for 127.0.0.1 at 2018-02-18 00:32:00 -0500
-  
-ActiveRecord::NoDatabaseError (FATAL:  database "manecoin_website_development" does not exist
-):
-  
-activerecord (5.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:701:in `rescue in connect'
-activerecord (5.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:697:in `connect'
-activerecord (5.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:221:in `initialize'
-activerecord (5.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:38:in `new'
-activerecord (5.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:38:in `postgresql_connection'
-activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:759:in `new_connection'
-activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:803:in `checkout_new_connection'
-activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:782:in `try_to_checkout_new_connection'
-activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:743:in `acquire_connection'
-activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:500:in `checkout'
-activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:374:in `connection'
-activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `retrieve_connection'
-activerecord (5.1.5) lib/active_record/connection_handling.rb:116:in `retrieve_connection'
-activerecord (5.1.5) lib/active_record/connection_handling.rb:88:in `connection'
-activerecord (5.1.5) lib/active_record/migration.rb:562:in `connection'
-activerecord (5.1.5) lib/active_record/migration.rb:553:in `call'
-actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
-activesupport (5.1.5) lib/active_support/callbacks.rb:97:in `run_callbacks'
-actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
-actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
-actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
-web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
-web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
-web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
-web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
-actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
-railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
-railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
-activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
-activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
-activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
-railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
-sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
-actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
-actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
-rack (2.0.4) lib/rack/method_override.rb:22:in `call'
-rack (2.0.4) lib/rack/runtime.rb:22:in `call'
-activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
-actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
-actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
-rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
-webpacker (3.2.2) lib/webpacker/dev_server_proxy.rb:18:in `perform_request'
-rack-proxy (0.6.3) lib/rack/proxy.rb:57:in `call'
-railties (5.1.5) lib/rails/engine.rb:522:in `call'
-puma (3.11.2) lib/puma/configuration.rb:225:in `call'
-puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
-puma (3.11.2) lib/puma/server.rb:438:in `process_client'
-puma (3.11.2) lib/puma/server.rb:302:in `block in run'
-puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
-  [1m[35m (4.6ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
-  [1m[35m (45.8ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
-  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(4441421310573848265)[0m
-  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
-Migrating to DeviseCreateUsers (20171212162457)
-  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
-  [1m[35m (49.3ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "email" character varying DEFAULT '' NOT NULL, "encrypted_password" character varying DEFAULT '' NOT NULL, "reset_password_token" character varying, "reset_password_sent_at" timestamp, "remember_created_at" timestamp, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" timestamp, "last_sign_in_at" timestamp, "current_sign_in_ip" inet, "last_sign_in_ip" inet, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
-  [1m[35m (0.8ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_email" ON "users"  ("email")[0m
-  [1m[35m (1.1ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_reset_password_token" ON "users"  ("reset_password_token")[0m
-  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20171212162457"]]
-  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
-Migrating to AddFlagsToUsers (20171221214239)
-  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
-  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "users" ADD "us_based" boolean[0m
-  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "users" ADD "accredited" boolean[0m
-  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20171221214239"]]
-  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
-Migrating to AddTermsAgreedToUser (20171228185624)
-  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
-  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "users" ADD "terms_agreed" boolean[0m
-  [1m[35m (0.2ms)[0m  [1m[35mALTER TABLE "users" ADD "terms_agreed_at" timestamp[0m
-  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20171228185624"]]
-  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
-Migrating to AddReferralAttributesToUser (20180102214947)
-  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
-  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "users" ADD "referral_id" character varying[0m
-  [1m[35m (0.2ms)[0m  [1m[35mALTER TABLE "users" ADD "eth_address" character varying[0m
-  [1m[35m (0.2ms)[0m  [1m[35mALTER TABLE "users" ADD "referrer_id" character varying[0m
-  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20180102214947"]]
-  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
-Migrating to AddUniqueIndexesToUser (20180103154353)
-  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
-  [1m[35m (0.7ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_referral_id" ON "users"  ("referral_id")[0m
-  [1m[35m (0.6ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_eth_address" ON "users"  ("eth_address")[0m
-  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20180103154353"]]
-  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
-Migrating to RemoveUniqueConstraintOnEthAddressIndex (20180108204306)
-  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
-  [1m[35m (0.7ms)[0m  [1m[35mDROP INDEX  "index_users_on_eth_address"[0m
-  [1m[35m (1.8ms)[0m  [1m[35mCREATE  INDEX  "index_users_on_eth_address" ON "users"  ("eth_address")[0m
-  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20180108204306"]]
-  [1m[35m (2.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (32.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (3.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35mSQL (41.4ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (12.6ms)[0m  [1m[35mDROP TABLE IF EXISTS "users" CASCADE[0m
+  [1m[35m (14.9ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "email" character varying DEFAULT '' NOT NULL, "encrypted_password" character varying DEFAULT '' NOT NULL, "reset_password_token" character varying, "reset_password_sent_at" timestamp, "remember_created_at" timestamp, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" timestamp, "last_sign_in_at" timestamp, "current_sign_in_ip" inet, "last_sign_in_ip" inet, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "us_based" boolean, "accredited" boolean, "terms_agreed" boolean, "terms_agreed_at" timestamp, "referral_id" character varying, "eth_address" character varying, "referrer_id" character varying, "admin" boolean)[0m
+  [1m[35m (1.2ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_email" ON "users"  ("email")[0m
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE  INDEX  "index_users_on_eth_address" ON "users"  ("eth_address")[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_referral_id" ON "users"  ("referral_id")[0m
+  [1m[35m (2.3ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_reset_password_token" ON "users"  ("reset_password_token")[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20180225220123)[0m
   [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
-  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2018-02-18 05:32:57.182914"], ["updated_at", "2018-02-18 05:32:57.182914"]]
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35mSQL (1.3ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "users" CASCADE[0m
+  [1m[35m (25.4ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "email" character varying DEFAULT '' NOT NULL, "encrypted_password" character varying DEFAULT '' NOT NULL, "reset_password_token" character varying, "reset_password_sent_at" timestamp, "remember_created_at" timestamp, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" timestamp, "last_sign_in_at" timestamp, "current_sign_in_ip" inet, "last_sign_in_ip" inet, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "us_based" boolean, "accredited" boolean, "terms_agreed" boolean, "terms_agreed_at" timestamp, "referral_id" character varying, "eth_address" character varying, "referrer_id" character varying, "admin" boolean)[0m
+  [1m[35m (3.2ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_email" ON "users"  ("email")[0m
+  [1m[35m (1.2ms)[0m  [1m[35mCREATE  INDEX  "index_users_on_eth_address" ON "users"  ("eth_address")[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_referral_id" ON "users"  ("referral_id")[0m
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_reset_password_token" ON "users"  ("reset_password_token")[0m
+  [1m[35m (2.5ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20180225220123)[0m
+  [1m[35m (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20171212162457),
+(20180102214947),
+(20171228185624),
+(20180108204306),
+(20180103154353),
+(20171221214239);
+
+[0m
+  [1m[35m (2.3ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2018-03-02 02:59:24.247329"], ["updated_at", "2018-03-02 02:59:24.247329"]]
   [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
-  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(4441421310573848265)[0m
-  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
-Started GET "/" for 127.0.0.1 at 2018-02-18 00:34:08 -0500
-  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/_featured_in.html.erb (4.3ms)
-  Rendered pages/_what_is_manestreem.html.erb (1.5ms)
-  Rendered pages/_beauty_on_tap.html.erb (0.2ms)
-  Rendered pages/_features.html.erb (2.9ms)
-  Rendered pages/_why_blockchain.html.erb (0.5ms)
-  Rendered pages/_pricing.html.erb (0.2ms)
-  Rendered pages/_team.html.erb (12.9ms)
-  Rendered pages/_roadmap.html.erb (0.6ms)
-  Rendered pages/home.html.erb within layouts/application (12071.7ms)
-[Webpacker] Compiling…
-[Webpacker] Compiled all packs in /Users/Adit/Desktop/Vyb/manecoin-website-master/public/packs
-  Rendered navigation/_navbar.html.erb (43.6ms)
-  Rendered navigation/_footer.html.erb (1.9ms)
-Completed 200 OK in 16773ms (Views: 16747.5ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2018-02-18 00:37:46 -0500
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/_featured_in.html.erb (7.4ms)
-  Rendered pages/_what_is_manestreem.html.erb (1.3ms)
-  Rendered pages/_beauty_on_tap.html.erb (0.3ms)
-  Rendered pages/_features.html.erb (3.7ms)
-  Rendered pages/_why_blockchain.html.erb (0.7ms)
-  Rendered pages/_pricing.html.erb (0.4ms)
-  Rendered pages/_team.html.erb (11.7ms)
-  Rendered pages/_roadmap.html.erb (0.6ms)
-  Rendered pages/home.html.erb within layouts/application (51.5ms)
-  Rendered navigation/_navbar.html.erb (2.4ms)
-  Rendered navigation/_footer.html.erb (1.6ms)
-Completed 200 OK in 136ms (Views: 129.2ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2018-02-18 00:37:47 -0500
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/_featured_in.html.erb (7.4ms)
-  Rendered pages/_what_is_manestreem.html.erb (1.4ms)
-  Rendered pages/_beauty_on_tap.html.erb (0.3ms)
-  Rendered pages/_features.html.erb (4.7ms)
-  Rendered pages/_why_blockchain.html.erb (0.3ms)
-  Rendered pages/_pricing.html.erb (0.2ms)
-  Rendered pages/_team.html.erb (9.2ms)
-  Rendered pages/_roadmap.html.erb (0.7ms)
-  Rendered pages/home.html.erb within layouts/application (46.4ms)
-  Rendered navigation/_navbar.html.erb (2.1ms)
-  Rendered navigation/_footer.html.erb (1.5ms)
-Completed 200 OK in 125ms (Views: 122.6ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/users/sign_up" for 127.0.0.1 at 2018-02-18 00:38:00 -0500
-Processing by RegistrationsController#new as HTML
-  Rendering devise/registrations/new.html.erb within layouts/application
-  Rendered devise/shared/_links.html.erb (1.0ms)
-  Rendered devise/registrations/new.html.erb within layouts/application (32.1ms)
-  Rendered navigation/_navbar.html.erb (2.9ms)
-  Rendered navigation/_footer.html.erb (1.9ms)
-Completed 200 OK in 148ms (Views: 115.0ms | ActiveRecord: 7.6ms)
-
-
-Started GET "/users/sign_in" for 127.0.0.1 at 2018-02-18 00:38:05 -0500
-Processing by Devise::SessionsController#new as HTML
-  Rendering devise/sessions/new.html.erb within layouts/application
-  Rendered devise/shared/_links.html.erb (1.1ms)
-  Rendered devise/sessions/new.html.erb within layouts/application (11.2ms)
-  Rendered navigation/_navbar.html.erb (2.3ms)
-  Rendered navigation/_footer.html.erb (1.6ms)
-Completed 200 OK in 92ms (Views: 89.3ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2018-02-19 17:38:09 -0500
-  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/_featured_in.html.erb (6.7ms)
-  Rendered pages/_what_is_manestreem.html.erb (2.3ms)
-  Rendered pages/_beauty_on_tap.html.erb (0.4ms)
-  Rendered pages/_features.html.erb (4.5ms)
-  Rendered pages/_why_blockchain.html.erb (0.6ms)
-  Rendered pages/_pricing.html.erb (0.3ms)
-  Rendered pages/_team.html.erb (16.4ms)
-  Rendered pages/_roadmap.html.erb (0.8ms)
-  Rendered pages/home.html.erb within layouts/application (2090.5ms)
-  Rendered navigation/_navbar.html.erb (12.7ms)
-  Rendered navigation/_footer.html.erb (2.1ms)
-Completed 200 OK in 2295ms (Views: 2267.6ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2018-02-19 17:38:54 -0500
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/_featured_in.html.erb (4.1ms)
-  Rendered pages/_what_is_manestreem.html.erb (1.3ms)
-  Rendered pages/_beauty_on_tap.html.erb (0.3ms)
-  Rendered pages/_features.html.erb (3.7ms)
-  Rendered pages/_why_blockchain.html.erb (0.4ms)
-  Rendered pages/_pricing.html.erb (0.3ms)
-  Rendered pages/_team.html.erb (9.0ms)
-  Rendered pages/_roadmap.html.erb (0.5ms)
-  Rendered pages/home.html.erb within layouts/application (37.5ms)
-  Rendered navigation/_navbar.html.erb (1.9ms)
-  Rendered navigation/_footer.html.erb (1.5ms)
-Completed 200 OK in 123ms (Views: 116.8ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2018-02-19 19:08:24 -0500
-  [1m[35m (40.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/_featured_in.html.erb (5.0ms)
-  Rendered pages/_what_is_manestreem.html.erb (1.9ms)
-  Rendered pages/_beauty_on_tap.html.erb (0.4ms)
-  Rendered pages/_features.html.erb (4.4ms)
-  Rendered pages/_why_blockchain.html.erb (0.5ms)
-  Rendered pages/_pricing.html.erb (0.5ms)
-  Rendered pages/_team.html.erb (13.2ms)
-  Rendered pages/_roadmap.html.erb (0.6ms)
-  Rendered pages/home.html.erb within layouts/application (2060.3ms)
-  Rendered navigation/_navbar.html.erb (15.9ms)
-  Rendered navigation/_footer.html.erb (18.2ms)
-Completed 200 OK in 2251ms (Views: 2224.6ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2018-02-19 19:08:44 -0500
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/_featured_in.html.erb (6.2ms)
-  Rendered pages/_what_is_manestreem.html.erb (1.4ms)
-  Rendered pages/_beauty_on_tap.html.erb (0.3ms)
-  Rendered pages/_features.html.erb (4.8ms)
-  Rendered pages/_why_blockchain.html.erb (0.5ms)
-  Rendered pages/_pricing.html.erb (0.3ms)
-  Rendered pages/_team.html.erb (11.6ms)
-  Rendered pages/_roadmap.html.erb (0.5ms)
-  Rendered pages/home.html.erb within layouts/application (47.6ms)
-  Rendered navigation/_navbar.html.erb (2.5ms)
-  Rendered navigation/_footer.html.erb (1.8ms)
-Completed 200 OK in 141ms (Views: 137.7ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2018-02-19 19:09:21 -0500
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/_featured_in.html.erb (4.7ms)
-  Rendered pages/_what_is_manestreem.html.erb (1.7ms)
-  Rendered pages/_beauty_on_tap.html.erb (0.3ms)
-  Rendered pages/_features.html.erb (3.5ms)
-  Rendered pages/_why_blockchain.html.erb (0.4ms)
-  Rendered pages/_pricing.html.erb (0.4ms)
-  Rendered pages/_team.html.erb (11.4ms)
-  Rendered pages/_roadmap.html.erb (0.6ms)
-  Rendered pages/home.html.erb within layouts/application (48.0ms)
-  Rendered navigation/_navbar.html.erb (2.2ms)
-  Rendered navigation/_footer.html.erb (2.6ms)
-Completed 200 OK in 124ms (Views: 121.6ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2018-02-19 19:11:48 -0500
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/_featured_in.html.erb (4.9ms)
-  Rendered pages/_what_is_manestreem.html.erb (1.7ms)
-  Rendered pages/_beauty_on_tap.html.erb (0.3ms)
-  Rendered pages/_features.html.erb (3.7ms)
-  Rendered pages/_why_blockchain.html.erb (0.5ms)
-  Rendered pages/_pricing.html.erb (0.3ms)
-  Rendered pages/_team.html.erb (9.6ms)
-  Rendered pages/_roadmap.html.erb (0.6ms)
-  Rendered pages/home.html.erb within layouts/application (44.3ms)
-  Rendered navigation/_navbar.html.erb (2257.0ms)
-  Rendered navigation/_footer.html.erb (17.9ms)
-Completed 200 OK in 2928ms (Views: 2925.5ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2018-02-19 19:12:20 -0500
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/_featured_in.html.erb (5.5ms)
-  Rendered pages/_what_is_manestreem.html.erb (1.2ms)
-  Rendered pages/_beauty_on_tap.html.erb (0.3ms)
-  Rendered pages/_features.html.erb (3.1ms)
-  Rendered pages/_why_blockchain.html.erb (0.3ms)
-  Rendered pages/_pricing.html.erb (0.4ms)
-  Rendered pages/_team.html.erb (10.7ms)
-  Rendered pages/_roadmap.html.erb (0.6ms)
-  Rendered pages/home.html.erb within layouts/application (43.8ms)
-  Rendered navigation/_navbar.html.erb (1.9ms)
-  Rendered navigation/_footer.html.erb (1.5ms)
-Completed 200 OK in 114ms (Views: 111.0ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2018-02-19 19:13:25 -0500
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/_featured_in.html.erb (4.3ms)
-  Rendered pages/_what_is_manestreem.html.erb (1.5ms)
-  Rendered pages/_beauty_on_tap.html.erb (0.3ms)
-  Rendered pages/_features.html.erb (3.5ms)
-  Rendered pages/_why_blockchain.html.erb (0.6ms)
-  Rendered pages/_pricing.html.erb (0.4ms)
-  Rendered pages/_team.html.erb (11.9ms)
-  Rendered pages/_roadmap.html.erb (0.9ms)
-  Rendered pages/home.html.erb within layouts/application (48.9ms)
-  Rendered navigation/_navbar.html.erb (4.2ms)
-  Rendered navigation/_footer.html.erb (3.1ms)
-Completed 200 OK in 3726ms (Views: 3722.2ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2018-02-19 19:13:42 -0500
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/_featured_in.html.erb (6.4ms)
-  Rendered pages/_what_is_manestreem.html.erb (1.9ms)
-  Rendered pages/_beauty_on_tap.html.erb (0.2ms)
-  Rendered pages/_features.html.erb (5.4ms)
-  Rendered pages/_why_blockchain.html.erb (0.4ms)
-  Rendered pages/_pricing.html.erb (0.7ms)
-  Rendered pages/_team.html.erb (15.2ms)
-  Rendered pages/_roadmap.html.erb (0.8ms)
-  Rendered pages/home.html.erb within layouts/application (55.8ms)
-  Rendered navigation/_navbar.html.erb (2.8ms)
-  Rendered navigation/_footer.html.erb (1.7ms)
-Completed 200 OK in 2917ms (Views: 2913.3ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2018-02-19 19:13:56 -0500
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/_featured_in.html.erb (5.8ms)
-  Rendered pages/_what_is_manestreem.html.erb (1.9ms)
-  Rendered pages/_beauty_on_tap.html.erb (0.3ms)
-  Rendered pages/_features.html.erb (5.1ms)
-  Rendered pages/_why_blockchain.html.erb (0.5ms)
-  Rendered pages/_pricing.html.erb (0.4ms)
-  Rendered pages/_team.html.erb (12.2ms)
-  Rendered pages/_roadmap.html.erb (0.7ms)
-  Rendered pages/home.html.erb within layouts/application (49.6ms)
-  Rendered navigation/_navbar.html.erb (2.8ms)
-  Rendered navigation/_footer.html.erb (1.8ms)
-Completed 200 OK in 2977ms (Views: 2973.6ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2018-02-19 19:15:56 -0500
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/_featured_in.html.erb (4.2ms)
-  Rendered pages/_what_is_manestreem.html.erb (1.5ms)
-  Rendered pages/_beauty_on_tap.html.erb (0.4ms)
-  Rendered pages/_features.html.erb (4.1ms)
-  Rendered pages/_why_blockchain.html.erb (0.5ms)
-  Rendered pages/_pricing.html.erb (0.4ms)
-  Rendered pages/_team.html.erb (11.6ms)
-  Rendered pages/_roadmap.html.erb (0.7ms)
-  Rendered pages/home.html.erb within layouts/application (46.0ms)
-  Rendered navigation/_navbar.html.erb (2.0ms)
-  Rendered navigation/_footer.html.erb (2.5ms)
-Completed 200 OK in 135ms (Views: 132.2ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2018-02-19 19:16:20 -0500
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/_featured_in.html.erb (5.3ms)
-  Rendered pages/_what_is_manestreem.html.erb (1.5ms)
-  Rendered pages/_beauty_on_tap.html.erb (0.3ms)
-  Rendered pages/_features.html.erb (4.9ms)
-  Rendered pages/_why_blockchain.html.erb (0.4ms)
-  Rendered pages/_pricing.html.erb (0.4ms)
-  Rendered pages/_team.html.erb (10.6ms)
-  Rendered pages/_roadmap.html.erb (0.5ms)
-  Rendered pages/home.html.erb within layouts/application (46.1ms)
-  Rendered navigation/_navbar.html.erb (2.3ms)
-  Rendered navigation/_footer.html.erb (1.9ms)
-Completed 200 OK in 123ms (Views: 120.8ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2018-02-19 19:27:43 -0500
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/_featured_in.html.erb (4.2ms)
-  Rendered pages/_what_is_manestreem.html.erb (1.5ms)
-  Rendered pages/_beauty_on_tap.html.erb (0.3ms)
-  Rendered pages/_features.html.erb (3.6ms)
-  Rendered pages/_why_blockchain.html.erb (0.4ms)
-  Rendered pages/_pricing.html.erb (0.3ms)
-  Rendered pages/_team.html.erb (10.2ms)
-  Rendered pages/_roadmap.html.erb (7.2ms)
-  Rendered pages/home.html.erb within layouts/application (50.6ms)
-  Rendered navigation/_navbar.html.erb (2.1ms)
-  Rendered navigation/_footer.html.erb (2.7ms)
-Completed 200 OK in 131ms (Views: 127.9ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2018-02-19 19:29:58 -0500
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/_featured_in.html.erb (4.5ms)
-  Rendered pages/_what_is_manestreem.html.erb (1.3ms)
-  Rendered pages/_beauty_on_tap.html.erb (0.3ms)
-  Rendered pages/_features.html.erb (4.2ms)
-  Rendered pages/_why_blockchain.html.erb (0.3ms)
-  Rendered pages/_pricing.html.erb (0.4ms)
-  Rendered pages/_team.html.erb (10.7ms)
-  Rendered pages/_roadmap.html.erb (0.5ms)
-  Rendered pages/home.html.erb within layouts/application (45.9ms)
-  Rendered navigation/_navbar.html.erb (2.0ms)
-  Rendered navigation/_footer.html.erb (1.9ms)
-Completed 200 OK in 127ms (Views: 122.5ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2018-02-20 18:09:57 -0500
-  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/_featured_in.html.erb (4.4ms)
-  Rendered pages/_what_is_manestreem.html.erb (1.5ms)
-  Rendered pages/_beauty_on_tap.html.erb (0.2ms)
-  Rendered pages/_features.html.erb (2.9ms)
-  Rendered pages/_why_blockchain.html.erb (0.3ms)
-  Rendered pages/_pricing.html.erb (0.3ms)
-  Rendered pages/_team.html.erb (9.8ms)
-  Rendered pages/_roadmap.html.erb (0.7ms)
-  Rendered pages/home.html.erb within layouts/application (5071.1ms)
-[Webpacker] Compiling…
-[Webpacker] Compiled all packs in /Users/Adit/Desktop/Vyb/vyb-website/public/packs
-  Rendered navigation/_navbar.html.erb (14.6ms)
-  Rendered navigation/_footer.html.erb (2.6ms)
-Completed 200 OK in 9336ms (Views: 9308.7ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2018-02-20 18:10:10 -0500
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/_featured_in.html.erb (5.0ms)
-  Rendered pages/_what_is_manestreem.html.erb (1.4ms)
-  Rendered pages/_beauty_on_tap.html.erb (0.3ms)
-  Rendered pages/_features.html.erb (3.9ms)
-  Rendered pages/_why_blockchain.html.erb (0.3ms)
-  Rendered pages/_pricing.html.erb (0.5ms)
-  Rendered pages/_team.html.erb (11.5ms)
-  Rendered pages/_roadmap.html.erb (0.6ms)
-  Rendered pages/home.html.erb within layouts/application (44.0ms)
-  Rendered navigation/_navbar.html.erb (2.2ms)
-  Rendered navigation/_footer.html.erb (1.7ms)
-Completed 200 OK in 123ms (Views: 120.5ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2018-02-21 11:40:04 -0500
-  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (1936.0ms)
-Completed 401 Unauthorized in 1972ms (ActiveRecord: 0.0ms)
-
-
-  
-ActionView::Template::Error (The asset "DontKillMyVyb.mp4" is not present in the asset pipeline.):
-    4: 
-    5:   <!--<%= video_tag "ManeStreem_Beauty_at_the_TAP_OF_AN_APP_(online-video-cutter.com)-2.mp4", id: 'headline-video', class: 'headline-video', autoplay: false, loop: "loop", muted: true %>-->
-    6: 
-    7:     <%= video_tag "DontKillMyVyb.mp4", id: 'headline-video', class: 'headline-video', autoplay: false, loop: "loop", muted: true %>
-    8: 
-    9:   <div class='headline-image' style='background-image: url(<%= image_url 'haircut.png' %>)'></div>
-   10: 
-  
-app/views/pages/home.html.erb:7:in `_app_views_pages_home_html_erb___423298912062463575_70131660618340'
-Started GET "/" for 127.0.0.1 at 2018-02-21 11:40:47 -0500
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/_featured_in.html.erb (3.8ms)
-  Rendered pages/_what_is_manestreem.html.erb (1.4ms)
-  Rendered pages/_beauty_on_tap.html.erb (0.3ms)
-  Rendered pages/_features.html.erb (3.3ms)
-  Rendered pages/_why_blockchain.html.erb (0.4ms)
-  Rendered pages/_pricing.html.erb (0.3ms)
-  Rendered pages/_team.html.erb (9.0ms)
-  Rendered pages/_roadmap.html.erb (0.5ms)
-  Rendered pages/home.html.erb within layouts/application (2468.9ms)
-  Rendered navigation/_navbar.html.erb (12.3ms)
-  Rendered navigation/_footer.html.erb (1.6ms)
-Completed 200 OK in 2988ms (Views: 2985.8ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2018-02-21 11:41:49 -0500
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/_featured_in.html.erb (3.7ms)
-  Rendered pages/_what_is_manestreem.html.erb (1.3ms)
-  Rendered pages/_beauty_on_tap.html.erb (0.3ms)
-  Rendered pages/_features.html.erb (3.4ms)
-  Rendered pages/_why_blockchain.html.erb (0.4ms)
-  Rendered pages/_pricing.html.erb (0.3ms)
-  Rendered pages/_team.html.erb (8.7ms)
-  Rendered pages/_roadmap.html.erb (0.5ms)
-  Rendered pages/home.html.erb within layouts/application (40.3ms)
-  Rendered navigation/_navbar.html.erb (1.8ms)
-  Rendered navigation/_footer.html.erb (1.3ms)
-Completed 200 OK in 117ms (Views: 113.3ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2018-02-21 11:41:56 -0500
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/_featured_in.html.erb (4.7ms)
-  Rendered pages/_what_is_manestreem.html.erb (2.0ms)
-  Rendered pages/_beauty_on_tap.html.erb (0.3ms)
-  Rendered pages/_features.html.erb (3.4ms)
-  Rendered pages/_why_blockchain.html.erb (0.3ms)
-  Rendered pages/_pricing.html.erb (0.4ms)
-  Rendered pages/_team.html.erb (9.6ms)
-  Rendered pages/_roadmap.html.erb (0.5ms)
-  Rendered pages/home.html.erb within layouts/application (43.2ms)
-  Rendered navigation/_navbar.html.erb (1.9ms)
-  Rendered navigation/_footer.html.erb (1.6ms)
-Completed 200 OK in 122ms (Views: 119.3ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2018-02-21 11:42:41 -0500
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/_featured_in.html.erb (4.3ms)
-  Rendered pages/_what_is_manestreem.html.erb (1.2ms)
-  Rendered pages/_beauty_on_tap.html.erb (0.3ms)
-  Rendered pages/_features.html.erb (3.2ms)
-  Rendered pages/_why_blockchain.html.erb (0.3ms)
-  Rendered pages/_pricing.html.erb (0.3ms)
-  Rendered pages/_team.html.erb (9.0ms)
-  Rendered pages/_roadmap.html.erb (0.5ms)
-  Rendered pages/home.html.erb within layouts/application (38.9ms)
-  Rendered navigation/_navbar.html.erb (2.7ms)
-  Rendered navigation/_footer.html.erb (1.9ms)
-Completed 200 OK in 116ms (Views: 113.2ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2018-02-21 11:44:48 -0500
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (10.2ms)
-Completed 401 Unauthorized in 22ms (ActiveRecord: 0.0ms)
-
-
-  
-ActionView::Template::Error (The asset "haircut.png" is not present in the asset pipeline.):
-     6: 
-     7:     <%= video_tag "DontKillMyVyb.mp4", id: 'headline-video', class: 'headline-video', autoplay: false, loop: "loop", muted: true %>
-     8: 
-     9:   <!--<div class='headline-image' style='background-image: url(<%= image_url 'haircut.png' %>)'></div>-->
-    10: 
-    11:   <div class='header main-headline reveal-jumbotron'>
-    12: 
-  
-app/views/pages/home.html.erb:9:in `_app_views_pages_home_html_erb___423298912062463575_70131736985900'
-Started GET "/" for 127.0.0.1 at 2018-02-21 11:45:00 -0500
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (19.4ms)
-Completed 401 Unauthorized in 30ms (ActiveRecord: 0.0ms)
-
-
-  
-ActionView::Template::Error (The asset "haircut.png" is not present in the asset pipeline.):
-     6: 
-     7:     <%= video_tag "DontKillMyVyb.mp4", id: 'headline-video', class: 'headline-video', autoplay: false, loop: "loop", muted: true %>
-     8: 
-     9:   <!--<div class='headline-image' style='background-image: url(<%= image_url 'haircut.png' %>)'></div>-->
-    10: 
-    11:   <div class='header main-headline reveal-jumbotron'>
-    12: 
-  
-app/views/pages/home.html.erb:9:in `_app_views_pages_home_html_erb___423298912062463575_70131674594860'
-Started GET "/" for 127.0.0.1 at 2018-02-21 11:45:26 -0500
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (10.4ms)
-Completed 401 Unauthorized in 20ms (ActiveRecord: 0.0ms)
-
-
-  
-ActionView::Template::Error (The asset "vyblogo.png" is not present in the asset pipeline.):
-     6: 
-     7:     <%= video_tag "DontKillMyVyb.mp4", id: 'headline-video', class: 'headline-video', autoplay: false, loop: "loop", muted: true %>
-     8: 
-     9:   <!--<div class='headline-image' style='background-image: url(<%= image_url 'vyblogo.png' %>)'></div>-->
-    10: 
-    11:   <div class='header main-headline reveal-jumbotron'>
-    12: 
-  
-app/views/pages/home.html.erb:9:in `_app_views_pages_home_html_erb___423298912062463575_70131738120460'
-Started GET "/" for 127.0.0.1 at 2018-02-21 11:45:53 -0500
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/_featured_in.html.erb (4.8ms)
-  Rendered pages/_what_is_manestreem.html.erb (1.7ms)
-  Rendered pages/_beauty_on_tap.html.erb (0.3ms)
-  Rendered pages/_features.html.erb (4.7ms)
-  Rendered pages/_why_blockchain.html.erb (0.3ms)
-  Rendered pages/_pricing.html.erb (0.3ms)
-  Rendered pages/_team.html.erb (11.6ms)
-  Rendered pages/_roadmap.html.erb (1.2ms)
-  Rendered pages/home.html.erb within layouts/application (48.1ms)
-[Webpacker] Compiling…
-[Webpacker] Compiled all packs in /Users/Adit/Desktop/Vyb/vyb-website/public/packs
-  Rendered navigation/_navbar.html.erb (3.0ms)
-  Rendered navigation/_footer.html.erb (2.1ms)
-Completed 200 OK in 4832ms (Views: 4828.8ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2018-02-21 11:47:20 -0500
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/_featured_in.html.erb (171.2ms)
-  Rendered pages/_what_is_manestreem.html.erb (1.3ms)
-  Rendered pages/_beauty_on_tap.html.erb (0.4ms)
-  Rendered pages/_features.html.erb (3.8ms)
-  Rendered pages/_why_blockchain.html.erb (0.3ms)
-  Rendered pages/_pricing.html.erb (0.3ms)
-  Rendered pages/_team.html.erb (9.0ms)
-  Rendered pages/_roadmap.html.erb (0.4ms)
-  Rendered pages/home.html.erb within layouts/application (209.1ms)
-  Rendered navigation/_navbar.html.erb (2.2ms)
-  Rendered navigation/_footer.html.erb (1.7ms)
-Completed 200 OK in 282ms (Views: 278.6ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2018-02-21 11:47:48 -0500
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/_featured_in.html.erb (4.3ms)
-  Rendered pages/_what_is_manestreem.html.erb (18.1ms)
-  Rendered pages/_beauty_on_tap.html.erb (0.3ms)
-  Rendered pages/_features.html.erb (14.6ms)
-  Rendered pages/_why_blockchain.html.erb (0.4ms)
-  Rendered pages/_pricing.html.erb (0.3ms)
-  Rendered pages/_team.html.erb (27.4ms)
-  Rendered pages/_roadmap.html.erb (0.8ms)
-  Rendered pages/home.html.erb within layouts/application (87.8ms)
-  Rendered navigation/_navbar.html.erb (2.0ms)
-  Rendered navigation/_footer.html.erb (1.6ms)
-Completed 200 OK in 168ms (Views: 165.3ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2018-02-21 11:48:34 -0500
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/_featured_in.html.erb (3.9ms)
-  Rendered pages/_what_is_manestreem.html.erb (1.4ms)
-  Rendered pages/_beauty_on_tap.html.erb (0.2ms)
-  Rendered pages/_features.html.erb (3.2ms)
-  Rendered pages/_why_blockchain.html.erb (0.3ms)
-  Rendered pages/_pricing.html.erb (0.4ms)
-  Rendered pages/_team.html.erb (8.3ms)
-  Rendered pages/_roadmap.html.erb (0.5ms)
-  Rendered pages/home.html.erb within layouts/application (37.8ms)
-  Rendered navigation/_navbar.html.erb (2.1ms)
-  Rendered navigation/_footer.html.erb (1.4ms)
-Completed 200 OK in 107ms (Views: 104.2ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2018-02-21 11:49:12 -0500
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/_featured_in.html.erb (3.9ms)
-  Rendered pages/_what_is_manestreem.html.erb (1.2ms)
-  Rendered pages/_beauty_on_tap.html.erb (0.3ms)
-  Rendered pages/_features.html.erb (3.4ms)
-  Rendered pages/_why_blockchain.html.erb (0.5ms)
-  Rendered pages/_pricing.html.erb (0.3ms)
-  Rendered pages/_team.html.erb (10.1ms)
-  Rendered pages/_roadmap.html.erb (0.5ms)
-  Rendered pages/home.html.erb within layouts/application (42.5ms)
-  Rendered navigation/_navbar.html.erb (2.0ms)
-  Rendered navigation/_footer.html.erb (2.9ms)
-Completed 200 OK in 114ms (Views: 111.2ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2018-02-21 11:49:23 -0500
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/_featured_in.html.erb (3.9ms)
-  Rendered pages/_what_is_manestreem.html.erb (1.3ms)
-  Rendered pages/_beauty_on_tap.html.erb (0.3ms)
-  Rendered pages/_features.html.erb (3.1ms)
-  Rendered pages/_why_blockchain.html.erb (0.3ms)
-  Rendered pages/_pricing.html.erb (0.3ms)
-  Rendered pages/_team.html.erb (8.9ms)
-  Rendered pages/_roadmap.html.erb (0.5ms)
-  Rendered pages/home.html.erb within layouts/application (53.6ms)
-  Rendered navigation/_navbar.html.erb (2.8ms)
-  Rendered navigation/_footer.html.erb (2.2ms)
-Completed 200 OK in 139ms (Views: 136.6ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2018-02-21 11:49:45 -0500
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/_featured_in.html.erb (3.6ms)
-  Rendered pages/_what_is_manestreem.html.erb (1.4ms)
-  Rendered pages/_beauty_on_tap.html.erb (0.4ms)
-  Rendered pages/_features.html.erb (10.5ms)
-  Rendered pages/_why_blockchain.html.erb (0.3ms)
-  Rendered pages/_pricing.html.erb (0.3ms)
-  Rendered pages/_team.html.erb (9.2ms)
-  Rendered pages/_roadmap.html.erb (0.5ms)
-  Rendered pages/home.html.erb within layouts/application (46.3ms)
-  Rendered navigation/_navbar.html.erb (4.2ms)
-  Rendered navigation/_footer.html.erb (1.9ms)
-Completed 200 OK in 134ms (Views: 131.5ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2018-02-21 11:49:56 -0500
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/_featured_in.html.erb (6.0ms)
-  Rendered pages/_what_is_manestreem.html.erb (1.3ms)
-  Rendered pages/_beauty_on_tap.html.erb (0.3ms)
-  Rendered pages/_features.html.erb (3.7ms)
-  Rendered pages/_why_blockchain.html.erb (0.4ms)
-  Rendered pages/_pricing.html.erb (0.3ms)
-  Rendered pages/_team.html.erb (11.1ms)
-  Rendered pages/_roadmap.html.erb (0.7ms)
-  Rendered pages/home.html.erb within layouts/application (44.9ms)
-  Rendered navigation/_navbar.html.erb (1.9ms)
-  Rendered navigation/_footer.html.erb (5.3ms)
-Completed 401 Unauthorized in 125ms (ActiveRecord: 0.0ms)
-
-
-  
-ActionView::Template::Error (The asset "VyBLogo.png" is not present in the asset pipeline.):
-    22: 	</div>
-    23: 
-    24: 	<div class='flex-column text-center'>
-    25: 		<a class="navbar-brand" href="/"><%= image_tag 'VyBLogo.png', class: 'black_circle_logo' %></a><br>
-    26: 		<span><%= mail_to 'press@myVyB.io' %></span><br>
-    27: 		<span><%= mail_to 'info@myVyb.io' %></span><br>
-    28: 	</div>
-  
-app/views/navigation/_footer.html.erb:25:in `_app_views_navigation__footer_html_erb___4277611664833974616_70131727289900'
-app/views/layouts/application.html.erb:50:in `_app_views_layouts_application_html_erb___1552335096858121852_70131725123940'
-Started GET "/" for 127.0.0.1 at 2018-02-21 11:59:38 -0500
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/_featured_in.html.erb (4.7ms)
-  Rendered pages/_what_is_manestreem.html.erb (1.4ms)
-  Rendered pages/_beauty_on_tap.html.erb (0.2ms)
-  Rendered pages/_features.html.erb (3.2ms)
-  Rendered pages/_why_blockchain.html.erb (0.3ms)
-  Rendered pages/_pricing.html.erb (0.4ms)
-  Rendered pages/_team.html.erb (9.4ms)
-  Rendered pages/_roadmap.html.erb (0.5ms)
-  Rendered pages/home.html.erb within layouts/application (37.8ms)
-  Rendered navigation/_navbar.html.erb (2.1ms)
-  Rendered navigation/_footer.html.erb (1.5ms)
-Completed 200 OK in 108ms (Views: 106.0ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2018-02-21 12:10:52 -0500
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/_featured_in.html.erb (5.5ms)
-  Rendered pages/_what_is_manestreem.html.erb (1.4ms)
-  Rendered pages/_beauty_on_tap.html.erb (0.2ms)
-  Rendered pages/_features.html.erb (3.6ms)
-  Rendered pages/_why_blockchain.html.erb (0.3ms)
-  Rendered pages/_pricing.html.erb (0.3ms)
-  Rendered pages/_team.html.erb (9.2ms)
-  Rendered pages/_roadmap.html.erb (0.6ms)
-  Rendered pages/home.html.erb within layouts/application (40.4ms)
-  Rendered navigation/_navbar.html.erb (1.9ms)
-  Rendered navigation/_footer.html.erb (1.0ms)
-Completed 200 OK in 135ms (Views: 131.1ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2018-02-21 12:11:08 -0500
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/_featured_in.html.erb (3.8ms)
-  Rendered pages/_what_is_manestreem.html.erb (1.2ms)
-  Rendered pages/_beauty_on_tap.html.erb (0.2ms)
-  Rendered pages/_features.html.erb (3.1ms)
-  Rendered pages/_why_blockchain.html.erb (0.7ms)
-  Rendered pages/_pricing.html.erb (0.4ms)
-  Rendered pages/_team.html.erb (8.7ms)
-  Rendered pages/_roadmap.html.erb (0.4ms)
-  Rendered pages/home.html.erb within layouts/application (38.9ms)
-  Rendered navigation/_navbar.html.erb (1.8ms)
-  Rendered navigation/_footer.html.erb (1.1ms)
-Completed 200 OK in 117ms (Views: 115.1ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2018-02-23 13:45:00 -0500
-  [1m[35m (2.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (2831.7ms)
-Completed 401 Unauthorized in 2870ms (ActiveRecord: 0.0ms)
-
-
-  
-ActionView::Template::Error (The asset "DontKillMyVyb.mp4" is not present in the asset pipeline.):
-    4: 
-    5:   <!--<%= video_tag "ManeStreem_Beauty_at_the_TAP_OF_AN_APP_(online-video-cutter.com)-2.mp4", id: 'headline-video', class: 'headline-video', autoplay: false, loop: "loop", muted: true %>-->
-    6: 
-    7:     <%= video_tag "DontKillMyVyb.mp4", id: 'headline-video', class: 'headline-video', autoplay: false, loop: "loop", muted: true %>
-    8: 
-    9:   <div class='header main-headline reveal-jumbotron'>
-   10: 
-  
-app/views/pages/home.html.erb:7:in `_app_views_pages_home_html_erb___2033288948051753875_70336214523920'
-Started GET "/" for 127.0.0.1 at 2018-02-23 13:45:48 -0500
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/_featured_in.html.erb (5.9ms)
-  Rendered pages/_what_is_manestreem.html.erb (1.4ms)
-  Rendered pages/_beauty_on_tap.html.erb (0.3ms)
-  Rendered pages/_features.html.erb (3.4ms)
-  Rendered pages/_why_blockchain.html.erb (0.3ms)
-  Rendered pages/_pricing.html.erb (0.3ms)
-  Rendered pages/_team.html.erb (10.9ms)
-  Rendered pages/_roadmap.html.erb (0.5ms)
-  Rendered pages/home.html.erb within layouts/application (2071.8ms)
-  Rendered navigation/_navbar.html.erb (13.9ms)
-  Rendered navigation/_footer.html.erb (1.3ms)
-Completed 200 OK in 2639ms (Views: 2636.3ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2018-02-23 13:45:56 -0500
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/_featured_in.html.erb (3.9ms)
-  Rendered pages/_what_is_manestreem.html.erb (1.7ms)
-  Rendered pages/_beauty_on_tap.html.erb (0.3ms)
-  Rendered pages/_features.html.erb (3.6ms)
-  Rendered pages/_why_blockchain.html.erb (0.4ms)
-  Rendered pages/_pricing.html.erb (0.4ms)
-  Rendered pages/_team.html.erb (8.5ms)
-  Rendered pages/_roadmap.html.erb (0.5ms)
-  Rendered pages/home.html.erb within layouts/application (40.4ms)
-  Rendered navigation/_navbar.html.erb (1.9ms)
-  Rendered navigation/_footer.html.erb (1.0ms)
-Completed 200 OK in 122ms (Views: 119.2ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2018-02-23 13:46:00 -0500
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/_featured_in.html.erb (4.3ms)
-  Rendered pages/_what_is_manestreem.html.erb (2.2ms)
-  Rendered pages/_beauty_on_tap.html.erb (0.3ms)
-  Rendered pages/_features.html.erb (3.1ms)
-  Rendered pages/_why_blockchain.html.erb (0.3ms)
-  Rendered pages/_pricing.html.erb (0.3ms)
-  Rendered pages/_team.html.erb (9.3ms)
-  Rendered pages/_roadmap.html.erb (0.5ms)
-  Rendered pages/home.html.erb within layouts/application (41.1ms)
-  Rendered navigation/_navbar.html.erb (2.0ms)
-  Rendered navigation/_footer.html.erb (1.2ms)
-Completed 200 OK in 115ms (Views: 112.9ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2018-02-23 13:46:39 -0500
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/_featured_in.html.erb (4.4ms)
-  Rendered pages/_what_is_manestreem.html.erb (1.5ms)
-  Rendered pages/_beauty_on_tap.html.erb (0.3ms)
-  Rendered pages/_features.html.erb (3.2ms)
-  Rendered pages/_why_blockchain.html.erb (0.3ms)
-  Rendered pages/_pricing.html.erb (0.3ms)
-  Rendered pages/_team.html.erb (8.8ms)
-  Rendered pages/_roadmap.html.erb (0.5ms)
-  Rendered pages/home.html.erb within layouts/application (39.6ms)
-  Rendered navigation/_navbar.html.erb (2.8ms)
-  Rendered navigation/_footer.html.erb (1.5ms)
-Completed 200 OK in 802ms (Views: 799.7ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2018-02-23 20:22:05 -0500
-  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/_featured_in.html.erb (5.0ms)
-  Rendered pages/_what_is_manestreem.html.erb (1.7ms)
-  Rendered pages/_beauty_on_tap.html.erb (0.3ms)
-  Rendered pages/_features.html.erb (3.1ms)
-  Rendered pages/_why_blockchain.html.erb (0.4ms)
-  Rendered pages/_pricing.html.erb (0.4ms)
-  Rendered pages/_team.html.erb (10.0ms)
-  Rendered pages/_roadmap.html.erb (0.6ms)
-  Rendered pages/home.html.erb within layouts/application (2419.6ms)
-  Rendered navigation/_navbar.html.erb (16.2ms)
-  Rendered navigation/_footer.html.erb (1.5ms)
-Completed 200 OK in 2562ms (Views: 2532.9ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2018-02-26 15:11:00 -0500
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2018-03-01 22:01:35 -0500
   [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
 Processing by PagesController#home as HTML
   Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (286.3ms)
-Completed 401 Unauthorized in 324ms (ActiveRecord: 0.0ms)
-
-
-  
-ActionView::Template::Error (The asset "VybMovie.mp4" is not present in the asset pipeline.):
-    2: 
-    3: <section class="jumbotron jumbotron-fluid m-0 d-flex flex-column justify-content-center align-items-start">
-    4: 
-    5:     <%= video_tag "VybMovie.mp4", id: 'headline-video', class: 'headline-video', autoplay: false, loop: "loop", muted: true %>
-    6: 
-    7:   <div class='header main-headline reveal-jumbotron'>
-    8: 
-  
-app/views/pages/home.html.erb:5:in `_app_views_pages_home_html_erb___1876959684442666022_70140144701620'
-Started GET "/" for 127.0.0.1 at 2018-02-26 15:11:27 -0500
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/_team.html.erb (9.3ms)
-  Rendered pages/_featured_in.html.erb (5.8ms)
-  Rendered pages/_what_is_manestreem.html.erb (1.6ms)
-  Rendered pages/_beauty_on_tap.html.erb (0.3ms)
-  Rendered pages/_features.html.erb (4.4ms)
-  Rendered pages/_why_blockchain.html.erb (0.3ms)
-  Rendered pages/_pricing.html.erb (0.3ms)
-  Rendered pages/_team.html.erb (3.6ms)
-  Rendered pages/_roadmap.html.erb (0.5ms)
-  Rendered pages/home.html.erb within layouts/application (13501.1ms)
-  Rendered navigation/_navbar.html.erb (13.9ms)
-  Rendered navigation/_footer.html.erb (1.3ms)
-Completed 200 OK in 14079ms (Views: 14076.2ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2018-02-26 15:11:51 -0500
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/_team.html.erb (10.3ms)
-  Rendered pages/_featured_in.html.erb (5.6ms)
-  Rendered pages/_what_is_manestreem.html.erb (1.2ms)
+  Rendered pages/_featured_in.html.erb (5.2ms)
+  Rendered pages/_what_is_manestreem.html.erb (1.3ms)
   Rendered pages/_beauty_on_tap.html.erb (0.2ms)
-  Rendered pages/_features.html.erb (2.7ms)
-  Rendered pages/_why_blockchain.html.erb (0.3ms)
-  Rendered pages/_pricing.html.erb (0.3ms)
-  Rendered pages/_team.html.erb (2.6ms)
-  Rendered pages/_roadmap.html.erb (0.5ms)
-  Rendered pages/home.html.erb within layouts/application (44.6ms)
-  Rendered navigation/_navbar.html.erb (2.0ms)
-  Rendered navigation/_footer.html.erb (1.0ms)
-Completed 200 OK in 119ms (Views: 115.8ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2018-02-26 15:12:46 -0500
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/_team.html.erb (10.6ms)
-  Rendered pages/_featured_in.html.erb (5.3ms)
-  Rendered pages/_what_is_manestreem.html.erb (1.3ms)
-  Rendered pages/_beauty_on_tap.html.erb (0.4ms)
-  Rendered pages/_features.html.erb (4.9ms)
-  Rendered pages/_why_blockchain.html.erb (0.6ms)
-  Rendered pages/_pricing.html.erb (0.8ms)
-  Rendered pages/_team.html.erb (3.8ms)
-  Rendered pages/_roadmap.html.erb (0.5ms)
-  Rendered pages/home.html.erb within layouts/application (53.3ms)
-  Rendered navigation/_navbar.html.erb (1.8ms)
-  Rendered navigation/_footer.html.erb (1.2ms)
-Completed 200 OK in 132ms (Views: 129.1ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2018-02-26 15:13:46 -0500
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/_team.html.erb (14.2ms)
-  Rendered pages/_featured_in.html.erb (6.9ms)
-  Rendered pages/_what_is_manestreem.html.erb (1.6ms)
-  Rendered pages/_beauty_on_tap.html.erb (0.4ms)
-  Rendered pages/_features.html.erb (5.9ms)
-  Rendered pages/_why_blockchain.html.erb (0.6ms)
-  Rendered pages/_pricing.html.erb (0.4ms)
-  Rendered pages/_team.html.erb (27.4ms)
-  Rendered pages/_roadmap.html.erb (0.7ms)
-  Rendered pages/home.html.erb within layouts/application (81.5ms)
-  Rendered navigation/_navbar.html.erb (3.0ms)
-  Rendered navigation/_footer.html.erb (1.6ms)
-Completed 200 OK in 200ms (Views: 197.2ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2018-02-26 15:14:30 -0500
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/_team.html.erb (12.3ms)
-  Rendered pages/_featured_in.html.erb (4.9ms)
-  Rendered pages/_what_is_manestreem.html.erb (1.3ms)
-  Rendered pages/_beauty_on_tap.html.erb (0.3ms)
-  Rendered pages/_features.html.erb (4.3ms)
-  Rendered pages/_why_blockchain.html.erb (0.3ms)
-  Rendered pages/_pricing.html.erb (0.3ms)
-  Rendered pages/_team.html.erb (3.7ms)
-  Rendered pages/_roadmap.html.erb (0.5ms)
-  Rendered pages/home.html.erb within layouts/application (2023.7ms)
-  Rendered navigation/_navbar.html.erb (1.9ms)
-  Rendered navigation/_footer.html.erb (1.0ms)
-Completed 200 OK in 2573ms (Views: 2570.2ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2018-02-26 15:17:02 -0500
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/_team.html.erb (12.3ms)
-  Rendered pages/_featured_in.html.erb (4.3ms)
-  Rendered pages/_what_is_manestreem.html.erb (1.4ms)
-  Rendered pages/_beauty_on_tap.html.erb (0.3ms)
-  Rendered pages/_features.html.erb (4.1ms)
-  Rendered pages/_why_blockchain.html.erb (0.4ms)
-  Rendered pages/_pricing.html.erb (0.4ms)
-  Rendered pages/_team.html.erb (3.4ms)
-  Rendered pages/_roadmap.html.erb (0.7ms)
-  Rendered pages/home.html.erb within layouts/application (13168.1ms)
-  Rendered navigation/_navbar.html.erb (2.8ms)
-  Rendered navigation/_footer.html.erb (1.6ms)
-Completed 200 OK in 13734ms (Views: 13731.4ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2018-02-26 15:19:37 -0500
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (15.5ms)
-Completed 401 Unauthorized in 25ms (ActiveRecord: 0.0ms)
-
-
-  
-ActionView::Template::Error (The asset "VybMovie.mov" is not present in the asset pipeline.):
-    2: 
-    3: <section class="jumbotron jumbotron-fluid m-0 d-flex flex-column justify-content-center align-items-start">
-    4: 
-    5:     <%= video_tag "VybMovie.mov", id: 'headline-video', class: 'headline-video', autoplay: false, loop: "loop", muted: true %>
-    6: 
-    7:   <div class='header main-headline reveal-jumbotron'>
-    8: 
-  
-app/views/pages/home.html.erb:5:in `_app_views_pages_home_html_erb___1876959684442666022_70140197066560'
-Started GET "/" for 127.0.0.1 at 2018-02-26 15:21:51 -0500
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (10.5ms)
-Completed 401 Unauthorized in 19ms (ActiveRecord: 0.0ms)
-
-
-  
-ActionView::Template::Error (The asset "VybMovie.mov" is not present in the asset pipeline.):
-    2: 
-    3: <section class="jumbotron jumbotron-fluid m-0 d-flex flex-column justify-content-center align-items-start">
-    4: 
-    5:     <!--<%= video_tag "VybMovie.mov", id: 'headline-video', class: 'headline-video', autoplay: false, loop: "loop", muted: true %>-->
-    6:   
-    7:     <video id="headline-video" class="headline-video", autoplay="false", loop="loop", muted="true" controls="controls">
-    8:       <source src="/videos/VybMovie.mov" type="video/mov" />
-  
-app/views/pages/home.html.erb:5:in `_app_views_pages_home_html_erb___1876959684442666022_70140212962460'
-Started GET "/" for 127.0.0.1 at 2018-02-26 15:22:10 -0500
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/_team.html.erb (13.6ms)
-  Rendered pages/_featured_in.html.erb (5.8ms)
-  Rendered pages/_what_is_manestreem.html.erb (2.1ms)
-  Rendered pages/_beauty_on_tap.html.erb (0.5ms)
-  Rendered pages/_features.html.erb (6.1ms)
-  Rendered pages/_why_blockchain.html.erb (0.7ms)
-  Rendered pages/_pricing.html.erb (0.4ms)
-  Rendered pages/_team.html.erb (6.1ms)
-  Rendered pages/_roadmap.html.erb (0.7ms)
-  Rendered pages/home.html.erb within layouts/application (60.6ms)
-  Rendered navigation/_navbar.html.erb (2.3ms)
-  Rendered navigation/_footer.html.erb (1.3ms)
-Completed 200 OK in 686ms (Views: 683.1ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2018-02-26 15:31:38 -0500
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/home.html.erb within layouts/application (18.5ms)
-Completed 401 Unauthorized in 42ms (ActiveRecord: 0.0ms)
-
-
-  
-ActionView::Template::Error (The asset "VybMovie.mov" is not present in the asset pipeline.):
-    2: 
-    3: <section class="jumbotron jumbotron-fluid m-0 d-flex flex-column justify-content-center align-items-start">
-    4: 
-    5:   <%= video_tag "VybMovie.mov", id: 'headline-video', class: 'headline-video', autoplay: false, loop: "loop", muted: true %>
-    6: 
-    7:   <div class='header main-headline reveal-jumbotron'>
-    8: 
-  
-app/views/pages/home.html.erb:5:in `_app_views_pages_home_html_erb___1876959684442666022_70140223671420'
-Started GET "/" for 127.0.0.1 at 2018-02-26 15:31:48 -0500
-Processing by PagesController#home as HTML
-  Rendering pages/home.html.erb within layouts/application
-  Rendered pages/_team.html.erb (10.9ms)
-  Rendered pages/_featured_in.html.erb (4.0ms)
-  Rendered pages/_what_is_manestreem.html.erb (1.6ms)
-  Rendered pages/_beauty_on_tap.html.erb (0.3ms)
-  Rendered pages/_features.html.erb (4.4ms)
+  Rendered pages/_features.html.erb (3.5ms)
   Rendered pages/_why_blockchain.html.erb (0.4ms)
   Rendered pages/_pricing.html.erb (0.5ms)
-  Rendered pages/_team.html.erb (2.5ms)
-  Rendered pages/_roadmap.html.erb (0.6ms)
-  Rendered pages/home.html.erb within layouts/application (3237.5ms)
-  Rendered navigation/_navbar.html.erb (2.3ms)
-  Rendered navigation/_footer.html.erb (1.4ms)
-Completed 200 OK in 3326ms (Views: 3323.0ms | ActiveRecord: 0.0ms)
+  Rendered pages/_team.html.erb (10.7ms)
+  Rendered pages/_roadmap.html.erb (0.5ms)
+  Rendered pages/home.html.erb within layouts/application (16032.6ms)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /Users/Adit/Desktop/Vyb/manecoin-website/public/packs
+  Rendered navigation/_navbar.html.erb (21.2ms)
+  Rendered navigation/_footer.html.erb (2.4ms)
+Completed 200 OK in 21555ms (Views: 21525.5ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/" for 127.0.0.1 at 2018-02-26 15:45:39 -0500
+Started GET "/" for 127.0.0.1 at 2018-03-01 23:06:15 -0500
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
 Processing by PagesController#home as HTML
   Rendering pages/home.html.erb within layouts/application
-  Rendered pages/_team.html.erb (10.0ms)
-  Rendered pages/home.html.erb within layouts/application (22.1ms)
-Completed 401 Unauthorized in 38ms (ActiveRecord: 0.0ms)
-
-
-  
-ActionView::Template::Error (The asset "mason.jpg" is not present in the asset pipeline.):
-     6:   <div class='row'>
-     7:     <div class="col-12 col-sm-6 col-md-6 col-lg-4">
-     8:       <div class="card border-0 mb-3">
-     9:         <div class="team-img" style='background-image: url("<%= image_url 'mason.jpg' %>")'></div>
-    10:         <div class="card-body">
-    11:           <span class='team-member-name mb-2 dark-purple'>Mason Cohen - CEO</span>
-    12:           <p class="team-member-description">
-  
-app/views/pages/_team.html.erb:9:in `_app_views_pages__team_html_erb__2690523537561612382_70140215180980'
-app/views/pages/home.html.erb:30:in `_app_views_pages_home_html_erb___1876959684442666022_70140211849320'
-Started GET "/" for 127.0.0.1 at 2018-02-26 15:46:00 -0500
+Started GET "/" for 127.0.0.1 at 2018-03-01 23:06:19 -0500
 Processing by PagesController#home as HTML
   Rendering pages/home.html.erb within layouts/application
-  Rendered pages/_team.html.erb (3345.6ms)
-  Rendered pages/_featured_in.html.erb (3.8ms)
-  Rendered pages/_what_is_manestreem.html.erb (1.9ms)
+  Rendered pages/_what_is_vyb.html.erb (2.1ms)
+  Rendered pages/_team.html.erb (18.2ms)
+  Rendered pages/_featured_in.html.erb (310.6ms)
+  Rendered pages/_beauty_on_tap.html.erb (0.3ms)
+  Rendered pages/_features.html.erb (62.6ms)
+  Rendered pages/_why_blockchain.html.erb (0.6ms)
+  Rendered pages/_pricing.html.erb (0.4ms)
+  Rendered pages/_team.html.erb (0.8ms)
+  Rendered pages/_what_is_vyb.html.erb (2.1ms)
+  Rendered pages/_roadmap.html.erb (0.4ms)
+  Rendered pages/_team.html.erb (3.1ms)
+  Rendered pages/home.html.erb within layouts/application (5978.1ms)
+  Rendered pages/_featured_in.html.erb (6.4ms)
   Rendered pages/_beauty_on_tap.html.erb (0.4ms)
-  Rendered pages/_features.html.erb (3.9ms)
+  Rendered pages/_features.html.erb (4.8ms)
   Rendered pages/_why_blockchain.html.erb (0.4ms)
   Rendered pages/_pricing.html.erb (0.4ms)
-  Rendered pages/_team.html.erb (1.1ms)
-  Rendered pages/_roadmap.html.erb (0.5ms)
-  Rendered pages/home.html.erb within layouts/application (3386.3ms)
-  Rendered navigation/_navbar.html.erb (1.9ms)
+  Rendered pages/_team.html.erb (0.8ms)
+  Rendered pages/_roadmap.html.erb (0.4ms)
+  Rendered pages/home.html.erb within layouts/application (2163.8ms)
+  Rendered navigation/_navbar.html.erb (12.5ms)
+  Rendered navigation/_footer.html.erb (1.4ms)
+Completed 200 OK in 6620ms (Views: 6591.7ms | ActiveRecord: 0.0ms)
+
+
+  Rendered navigation/_navbar.html.erb (2.1ms)
   Rendered navigation/_footer.html.erb (1.0ms)
-Completed 200 OK in 3930ms (Views: 3926.0ms | ActiveRecord: 0.0ms)
+Completed 200 OK in 2991ms (Views: 2988.4ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/" for 127.0.0.1 at 2018-02-26 15:46:41 -0500
+Started GET "/" for 127.0.0.1 at 2018-03-01 23:06:52 -0500
 Processing by PagesController#home as HTML
   Rendering pages/home.html.erb within layouts/application
-  Rendered pages/_team.html.erb (2.7ms)
-  Rendered pages/_featured_in.html.erb (4.3ms)
-  Rendered pages/_what_is_manestreem.html.erb (1.4ms)
-  Rendered pages/_beauty_on_tap.html.erb (0.2ms)
-  Rendered pages/_features.html.erb (4.3ms)
+  Rendered pages/_what_is_vyb.html.erb (1.2ms)
+  Rendered pages/_team.html.erb (3.3ms)
+  Rendered pages/_featured_in.html.erb (4.7ms)
+  Rendered pages/_beauty_on_tap.html.erb (0.3ms)
+  Rendered pages/_features.html.erb (3.1ms)
   Rendered pages/_why_blockchain.html.erb (0.3ms)
-  Rendered pages/_pricing.html.erb (0.3ms)
+  Rendered pages/_pricing.html.erb (0.5ms)
   Rendered pages/_team.html.erb (1.0ms)
   Rendered pages/_roadmap.html.erb (0.5ms)
-  Rendered pages/home.html.erb within layouts/application (34.2ms)
-  Rendered navigation/_navbar.html.erb (2.4ms)
-  Rendered navigation/_footer.html.erb (1.1ms)
-Completed 200 OK in 3660ms (Views: 3657.4ms | ActiveRecord: 0.0ms)
+  Rendered pages/home.html.erb within layouts/application (38.9ms)
+  Rendered navigation/_navbar.html.erb (1.9ms)
+  Rendered navigation/_footer.html.erb (1.0ms)
+Completed 200 OK in 105ms (Views: 102.3ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/" for 127.0.0.1 at 2018-02-26 15:48:22 -0500
+Started GET "/" for 127.0.0.1 at 2018-03-01 23:09:20 -0500
 Processing by PagesController#home as HTML
   Rendering pages/home.html.erb within layouts/application
-  Rendered pages/_team.html.erb (2.8ms)
-  Rendered pages/_featured_in.html.erb (3.5ms)
-  Rendered pages/_what_is_manestreem.html.erb (1.3ms)
-  Rendered pages/_beauty_on_tap.html.erb (0.2ms)
-  Rendered pages/_features.html.erb (2.7ms)
-  Rendered pages/_why_blockchain.html.erb (0.5ms)
-  Rendered pages/_pricing.html.erb (0.7ms)
-  Rendered pages/_team.html.erb (1.4ms)
+  Rendered pages/_what_is_vyb.html.erb (2.0ms)
+  Rendered pages/_team.html.erb (4.2ms)
+  Rendered pages/_featured_in.html.erb (6.3ms)
+  Rendered pages/_beauty_on_tap.html.erb (0.8ms)
+  Rendered pages/_features.html.erb (8.5ms)
+  Rendered pages/_why_blockchain.html.erb (0.7ms)
+  Rendered pages/_pricing.html.erb (0.5ms)
+  Rendered pages/_team.html.erb (3.3ms)
+  Rendered pages/_roadmap.html.erb (0.6ms)
+  Rendered pages/home.html.erb within layouts/application (70.6ms)
+  Rendered navigation/_navbar.html.erb (2.8ms)
+  Rendered navigation/_footer.html.erb (1.9ms)
+Completed 200 OK in 195ms (Views: 191.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-01 23:09:28 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_what_is_vyb.html.erb (1.3ms)
+  Rendered pages/_team.html.erb (4.9ms)
+  Rendered pages/_featured_in.html.erb (5.1ms)
+  Rendered pages/_beauty_on_tap.html.erb (0.3ms)
+  Rendered pages/_features.html.erb (4.5ms)
+  Rendered pages/_why_blockchain.html.erb (0.3ms)
+  Rendered pages/_pricing.html.erb (0.3ms)
+  Rendered pages/_team.html.erb (0.8ms)
   Rendered pages/_roadmap.html.erb (0.4ms)
-  Rendered pages/home.html.erb within layouts/application (37.6ms)
-  Rendered navigation/_navbar.html.erb (1.6ms)
-  Rendered navigation/_footer.html.erb (0.9ms)
-Completed 200 OK in 111ms (Views: 104.7ms | ActiveRecord: 0.0ms)
+  Rendered pages/home.html.erb within layouts/application (41.5ms)
+  Rendered navigation/_navbar.html.erb (1.7ms)
+  Rendered navigation/_footer.html.erb (1.2ms)
+Completed 200 OK in 118ms (Views: 114.6ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/" for 127.0.0.1 at 2018-02-26 15:48:48 -0500
+Started GET "/" for 127.0.0.1 at 2018-03-01 23:15:20 -0500
 Processing by PagesController#home as HTML
   Rendering pages/home.html.erb within layouts/application
-  Rendered pages/_team.html.erb (3.6ms)
-  Rendered pages/_featured_in.html.erb (5.2ms)
-  Rendered pages/_what_is_manestreem.html.erb (1.4ms)
-  Rendered pages/_beauty_on_tap.html.erb (0.4ms)
+  Rendered pages/_what_is_vyb.html.erb (1.2ms)
+  Rendered pages/_team.html.erb (3.0ms)
+  Rendered pages/_featured_in.html.erb (3.8ms)
+  Rendered pages/_beauty_on_tap.html.erb (0.3ms)
+  Rendered pages/_features.html.erb (3.7ms)
+  Rendered pages/_why_blockchain.html.erb (0.4ms)
+  Rendered pages/_pricing.html.erb (0.3ms)
+  Rendered pages/_team.html.erb (0.8ms)
+  Rendered pages/_roadmap.html.erb (0.4ms)
+  Rendered pages/home.html.erb within layouts/application (36.3ms)
+  Rendered navigation/_navbar.html.erb (4.7ms)
+  Rendered navigation/_footer.html.erb (1.4ms)
+Completed 200 OK in 3677ms (Views: 3674.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-01 23:16:57 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_what_is_vyb.html.erb (1.1ms)
+  Rendered pages/_team.html.erb (3.1ms)
+  Rendered pages/_featured_in.html.erb (4.0ms)
+  Rendered pages/_beauty_on_tap.html.erb (0.3ms)
+  Rendered pages/_features.html.erb (3.4ms)
+  Rendered pages/_why_blockchain.html.erb (0.4ms)
+  Rendered pages/_pricing.html.erb (0.3ms)
+  Rendered pages/_team.html.erb (0.8ms)
+  Rendered pages/_roadmap.html.erb (0.5ms)
+  Rendered pages/home.html.erb within layouts/application (38.3ms)
+  Rendered navigation/_navbar.html.erb (7.4ms)
+  Rendered navigation/_footer.html.erb (1.5ms)
+Completed 200 OK in 119ms (Views: 116.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-01 23:19:00 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_what_is_vyb.html.erb (1.1ms)
+  Rendered pages/_team.html.erb (2.8ms)
+  Rendered pages/_featured_in.html.erb (5.1ms)
+  Rendered pages/_beauty_on_tap.html.erb (0.3ms)
+  Rendered pages/_features.html.erb (3.9ms)
+  Rendered pages/_why_blockchain.html.erb (0.3ms)
+  Rendered pages/_pricing.html.erb (0.4ms)
+  Rendered pages/_team.html.erb (1.7ms)
+  Rendered pages/_roadmap.html.erb (0.6ms)
+  Rendered pages/home.html.erb within layouts/application (41.7ms)
+  Rendered navigation/_navbar.html.erb (3.1ms)
+  Rendered navigation/_footer.html.erb (1.1ms)
+Completed 200 OK in 2973ms (Views: 2971.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-01 23:19:37 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_what_is_vyb.html.erb (1.2ms)
+  Rendered pages/_team.html.erb (3.5ms)
+  Rendered pages/_featured_in.html.erb (4.2ms)
+  Rendered pages/_beauty_on_tap.html.erb (0.3ms)
+  Rendered pages/_features.html.erb (5.0ms)
+  Rendered pages/_why_blockchain.html.erb (0.4ms)
+  Rendered pages/_pricing.html.erb (0.3ms)
+  Rendered pages/_team.html.erb (0.8ms)
+  Rendered pages/_roadmap.html.erb (0.5ms)
+  Rendered pages/home.html.erb within layouts/application (39.5ms)
+  Rendered navigation/_navbar.html.erb (2.4ms)
+  Rendered navigation/_footer.html.erb (1.4ms)
+Completed 200 OK in 3029ms (Views: 3026.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-01 23:23:21 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_what_is_vyb.html.erb (1.4ms)
+  Rendered pages/_team.html.erb (3.5ms)
+  Rendered pages/_featured_in.html.erb (3.7ms)
+  Rendered pages/_beauty_on_tap.html.erb (0.3ms)
   Rendered pages/_features.html.erb (3.0ms)
   Rendered pages/_why_blockchain.html.erb (0.3ms)
   Rendered pages/_pricing.html.erb (0.3ms)
   Rendered pages/_team.html.erb (0.9ms)
-  Rendered pages/_roadmap.html.erb (0.6ms)
-  Rendered pages/home.html.erb within layouts/application (38.3ms)
-  Rendered navigation/_navbar.html.erb (3.3ms)
+  Rendered pages/_roadmap.html.erb (0.5ms)
+  Rendered pages/home.html.erb within layouts/application (36.4ms)
+  Rendered navigation/_navbar.html.erb (1.8ms)
   Rendered navigation/_footer.html.erb (1.1ms)
-Completed 200 OK in 122ms (Views: 119.6ms | ActiveRecord: 0.0ms)
+Completed 200 OK in 2970ms (Views: 2967.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-01 23:25:06 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_what_is_vyb.html.erb (2.1ms)
+  Rendered pages/_team.html.erb (6.0ms)
+  Rendered pages/_featured_in.html.erb (7.2ms)
+  Rendered pages/_beauty_on_tap.html.erb (0.3ms)
+  Rendered pages/_features.html.erb (3.3ms)
+  Rendered pages/_why_blockchain.html.erb (0.3ms)
+  Rendered pages/_pricing.html.erb (0.8ms)
+  Rendered pages/_team.html.erb (0.8ms)
+  Rendered pages/_roadmap.html.erb (0.5ms)
+  Rendered pages/home.html.erb within layouts/application (49.2ms)
+  Rendered navigation/_navbar.html.erb (1.8ms)
+  Rendered navigation/_footer.html.erb (0.9ms)
+Completed 200 OK in 123ms (Views: 118.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-01 23:25:10 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_what_is_vyb.html.erb (1.1ms)
+  Rendered pages/_team.html.erb (3.5ms)
+  Rendered pages/_featured_in.html.erb (4.2ms)
+  Rendered pages/_beauty_on_tap.html.erb (1.5ms)
+  Rendered pages/_features.html.erb (3.3ms)
+  Rendered pages/_why_blockchain.html.erb (0.4ms)
+  Rendered pages/_pricing.html.erb (0.3ms)
+  Rendered pages/_team.html.erb (0.9ms)
+  Rendered pages/_roadmap.html.erb (0.5ms)
+  Rendered pages/home.html.erb within layouts/application (39.4ms)
+  Rendered navigation/_navbar.html.erb (2.0ms)
+  Rendered navigation/_footer.html.erb (1.7ms)
+Completed 200 OK in 139ms (Views: 136.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-01 23:28:13 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_what_is_vyb.html.erb (1.1ms)
+  Rendered pages/_team.html.erb (3.3ms)
+  Rendered pages/_featured_in.html.erb (4.5ms)
+  Rendered pages/_beauty_on_tap.html.erb (0.2ms)
+  Rendered pages/_features.html.erb (2.9ms)
+  Rendered pages/_why_blockchain.html.erb (0.6ms)
+  Rendered pages/_pricing.html.erb (0.3ms)
+  Rendered pages/_team.html.erb (0.9ms)
+  Rendered pages/_roadmap.html.erb (0.4ms)
+  Rendered pages/home.html.erb within layouts/application (41.8ms)
+  Rendered navigation/_navbar.html.erb (1.2ms)
+  Rendered navigation/_footer.html.erb (1.0ms)
+Completed 200 OK in 113ms (Views: 110.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-01 23:28:49 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_what_is_vyb.html.erb (2.0ms)
+  Rendered pages/_team.html.erb (3.6ms)
+  Rendered pages/_featured_in.html.erb (4.1ms)
+  Rendered pages/_beauty_on_tap.html.erb (0.5ms)
+  Rendered pages/_features.html.erb (3.5ms)
+  Rendered pages/_why_blockchain.html.erb (0.3ms)
+  Rendered pages/_pricing.html.erb (0.3ms)
+  Rendered pages/_team.html.erb (0.8ms)
+  Rendered pages/_roadmap.html.erb (0.4ms)
+  Rendered pages/home.html.erb within layouts/application (46.1ms)
+  Rendered navigation/_navbar.html.erb (2.1ms)
+  Rendered navigation/_footer.html.erb (1.6ms)
+Completed 200 OK in 127ms (Views: 124.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-01 23:29:10 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_what_is_vyb.html.erb (1.3ms)
+  Rendered pages/_team.html.erb (3.5ms)
+  Rendered pages/_featured_in.html.erb (3.7ms)
+  Rendered pages/_beauty_on_tap.html.erb (0.2ms)
+  Rendered pages/_features.html.erb (3.1ms)
+  Rendered pages/_why_blockchain.html.erb (0.3ms)
+  Rendered pages/_pricing.html.erb (0.3ms)
+  Rendered pages/_team.html.erb (0.9ms)
+  Rendered pages/_roadmap.html.erb (0.5ms)
+  Rendered pages/home.html.erb within layouts/application (36.7ms)
+  Rendered navigation/_navbar.html.erb (1.4ms)
+  Rendered navigation/_footer.html.erb (0.9ms)
+Completed 200 OK in 107ms (Views: 104.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-01 23:37:21 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_what_is_vyb.html.erb (1.5ms)
+  Rendered pages/_team.html.erb (3.1ms)
+  Rendered pages/_featured_in.html.erb (3.5ms)
+  Rendered pages/_beauty_on_tap.html.erb (0.4ms)
+  Rendered pages/_features.html.erb (3.9ms)
+  Rendered pages/_why_blockchain.html.erb (0.4ms)
+  Rendered pages/_pricing.html.erb (0.3ms)
+  Rendered pages/_team.html.erb (0.9ms)
+  Rendered pages/_roadmap.html.erb (0.5ms)
+  Rendered pages/home.html.erb within layouts/application (39.9ms)
+  Rendered navigation/_navbar.html.erb (1.2ms)
+  Rendered navigation/_footer.html.erb (1.0ms)
+Completed 200 OK in 109ms (Views: 106.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-01 23:39:54 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_what_is_vyb.html.erb (1.2ms)
+  Rendered pages/_team.html.erb (3.7ms)
+  Rendered pages/_featured_in.html.erb (4.2ms)
+  Rendered pages/_beauty_on_tap.html.erb (0.2ms)
+  Rendered pages/_features.html.erb (2.8ms)
+  Rendered pages/_why_blockchain.html.erb (0.3ms)
+  Rendered pages/_pricing.html.erb (0.2ms)
+  Rendered pages/_team.html.erb (0.8ms)
+  Rendered pages/_roadmap.html.erb (0.4ms)
+  Rendered pages/home.html.erb within layouts/application (39.2ms)
+  Rendered navigation/_navbar.html.erb (1.2ms)
+  Rendered navigation/_footer.html.erb (1.0ms)
+Completed 200 OK in 110ms (Views: 107.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-01 23:48:44 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_what_is_vyb.html.erb (12.8ms)
+  Rendered pages/_team.html.erb (3.3ms)
+  Rendered pages/_featured_in.html.erb (5.5ms)
+  Rendered pages/_beauty_on_tap.html.erb (0.3ms)
+  Rendered pages/_features.html.erb (2.7ms)
+  Rendered pages/_why_blockchain.html.erb (0.3ms)
+  Rendered pages/_pricing.html.erb (0.3ms)
+  Rendered pages/_team.html.erb (1.0ms)
+  Rendered pages/_roadmap.html.erb (0.5ms)
+  Rendered pages/home.html.erb within layouts/application (46.7ms)
+  Rendered navigation/_navbar.html.erb (1.3ms)
+  Rendered navigation/_footer.html.erb (1.0ms)
+Completed 200 OK in 625ms (Views: 622.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-01 23:49:06 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_what_is_vyb.html.erb (1.3ms)
+  Rendered pages/_team.html.erb (5.2ms)
+  Rendered pages/_featured_in.html.erb (3.5ms)
+  Rendered pages/_beauty_on_tap.html.erb (0.2ms)
+  Rendered pages/_features.html.erb (5.1ms)
+  Rendered pages/_why_blockchain.html.erb (0.3ms)
+  Rendered pages/_pricing.html.erb (0.2ms)
+  Rendered pages/_team.html.erb (0.8ms)
+  Rendered pages/_roadmap.html.erb (0.6ms)
+  Rendered pages/home.html.erb within layouts/application (38.8ms)
+  Rendered navigation/_navbar.html.erb (1.3ms)
+  Rendered navigation/_footer.html.erb (0.8ms)
+Completed 200 OK in 107ms (Views: 104.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-01 23:50:32 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_what_is_vyb.html.erb (1.4ms)
+  Rendered pages/_team.html.erb (4.9ms)
+  Rendered pages/_featured_in.html.erb (3.7ms)
+  Rendered pages/_beauty_on_tap.html.erb (0.2ms)
+  Rendered pages/_features.html.erb (4.0ms)
+  Rendered pages/_why_blockchain.html.erb (0.3ms)
+  Rendered pages/_pricing.html.erb (0.3ms)
+  Rendered pages/_team.html.erb (1.1ms)
+  Rendered pages/_roadmap.html.erb (0.4ms)
+  Rendered pages/home.html.erb within layouts/application (42.2ms)
+  Rendered navigation/_navbar.html.erb (1.3ms)
+  Rendered navigation/_footer.html.erb (0.9ms)
+Completed 200 OK in 116ms (Views: 113.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-01 23:51:53 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_what_is_vyb.html.erb (1.5ms)
+  Rendered pages/_team.html.erb (3.8ms)
+  Rendered pages/_featured_in.html.erb (4.1ms)
+  Rendered pages/_beauty_on_tap.html.erb (0.4ms)
+  Rendered pages/_features.html.erb (3.1ms)
+  Rendered pages/_why_blockchain.html.erb (0.3ms)
+  Rendered pages/_pricing.html.erb (0.3ms)
+  Rendered pages/_team.html.erb (0.8ms)
+  Rendered pages/_roadmap.html.erb (0.6ms)
+  Rendered pages/home.html.erb within layouts/application (43.6ms)
+  Rendered navigation/_navbar.html.erb (1.3ms)
+  Rendered navigation/_footer.html.erb (1.3ms)
+Completed 200 OK in 112ms (Views: 109.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-01 23:53:23 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_what_is_vyb.html.erb (1.4ms)
+  Rendered pages/_team.html.erb (3.5ms)
+  Rendered pages/_featured_in.html.erb (4.3ms)
+  Rendered pages/_beauty_on_tap.html.erb (0.2ms)
+  Rendered pages/_features.html.erb (2.9ms)
+  Rendered pages/_why_blockchain.html.erb (0.3ms)
+  Rendered pages/_pricing.html.erb (0.4ms)
+  Rendered pages/_team.html.erb (1.3ms)
+  Rendered pages/_roadmap.html.erb (0.5ms)
+  Rendered pages/home.html.erb within layouts/application (39.2ms)
+  Rendered navigation/_navbar.html.erb (1.5ms)
+  Rendered navigation/_footer.html.erb (0.9ms)
+Completed 200 OK in 110ms (Views: 104.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-02 00:02:30 -0500
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_what_is_vyb.html.erb (1.5ms)
+  Rendered pages/_team.html.erb (2.8ms)
+  Rendered pages/_featured_in.html.erb (4.8ms)
+  Rendered pages/_beauty_on_tap.html.erb (0.2ms)
+  Rendered pages/_features.html.erb (3.0ms)
+  Rendered pages/_why_blockchain.html.erb (0.4ms)
+  Rendered pages/_pricing.html.erb (0.3ms)
+  Rendered pages/_team.html.erb (1.0ms)
+  Rendered pages/_roadmap.html.erb (0.5ms)
+  Rendered pages/home.html.erb within layouts/application (2411.9ms)
+  Rendered navigation/_navbar.html.erb (12.8ms)
+  Rendered navigation/_footer.html.erb (1.3ms)
+Completed 200 OK in 2551ms (Views: 2522.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-02 00:03:02 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_what_is_vyb.html.erb (1.5ms)
+  Rendered pages/_team.html.erb (3.4ms)
+  Rendered pages/_featured_in.html.erb (3.7ms)
+  Rendered pages/_beauty_on_tap.html.erb (0.5ms)
+  Rendered pages/_features.html.erb (3.7ms)
+  Rendered pages/_why_blockchain.html.erb (1.7ms)
+  Rendered pages/_pricing.html.erb (0.3ms)
+  Rendered pages/_team.html.erb (1.0ms)
+  Rendered pages/_roadmap.html.erb (0.5ms)
+  Rendered pages/home.html.erb within layouts/application (36.2ms)
+  Rendered navigation/_navbar.html.erb (1.6ms)
+  Rendered navigation/_footer.html.erb (1.9ms)
+Completed 200 OK in 121ms (Views: 116.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-02 00:07:16 -0500
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_what_is_vyb.html.erb (2.0ms)
+  Rendered pages/_team.html.erb (2.8ms)
+  Rendered pages/_featured_in.html.erb (3.3ms)
+  Rendered pages/_beauty_on_tap.html.erb (0.3ms)
+  Rendered pages/_features.html.erb (3.8ms)
+  Rendered pages/_why_blockchain.html.erb (0.5ms)
+  Rendered pages/_pricing.html.erb (0.3ms)
+  Rendered pages/_team.html.erb (1.1ms)
+  Rendered pages/_roadmap.html.erb (0.6ms)
+  Rendered pages/home.html.erb within layouts/application (1748.0ms)
+  Rendered navigation/_navbar.html.erb (14.7ms)
+  Rendered navigation/_footer.html.erb (1.1ms)
+Completed 200 OK in 1902ms (Views: 1875.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-02 00:07:33 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_what_is_vyb.html.erb (1.6ms)
+  Rendered pages/_team.html.erb (3.8ms)
+  Rendered pages/_featured_in.html.erb (4.5ms)
+  Rendered pages/_beauty_on_tap.html.erb (0.3ms)
+  Rendered pages/_features.html.erb (3.8ms)
+  Rendered pages/_why_blockchain.html.erb (0.4ms)
+  Rendered pages/_pricing.html.erb (0.3ms)
+  Rendered pages/_team.html.erb (1.2ms)
+  Rendered pages/_roadmap.html.erb (0.6ms)
+  Rendered pages/home.html.erb within layouts/application (38.0ms)
+  Rendered navigation/_navbar.html.erb (1.7ms)
+  Rendered navigation/_footer.html.erb (1.3ms)
+Completed 200 OK in 116ms (Views: 113.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-02 00:08:00 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_what_is_vyb.html.erb (1.3ms)
+  Rendered pages/_team.html.erb (3.9ms)
+  Rendered pages/_featured_in.html.erb (3.6ms)
+  Rendered pages/_beauty_on_tap.html.erb (0.3ms)
+  Rendered pages/_features.html.erb (2.8ms)
+  Rendered pages/_why_blockchain.html.erb (0.3ms)
+  Rendered pages/_pricing.html.erb (0.2ms)
+  Rendered pages/_team.html.erb (0.8ms)
+  Rendered pages/_roadmap.html.erb (0.5ms)
+  Rendered pages/home.html.erb within layouts/application (34.5ms)
+  Rendered navigation/_navbar.html.erb (1.5ms)
+  Rendered navigation/_footer.html.erb (1.1ms)
+Completed 200 OK in 101ms (Views: 99.1ms | ActiveRecord: 0.0ms)
 
 

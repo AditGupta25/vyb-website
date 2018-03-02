@@ -1,0 +1,57 @@
+I"z(function() {
+  var formatNumberString, injectCountdownNumbers;
+
+  App.Countdown = (function() {
+    var updateCountdown;
+
+    function Countdown() {}
+
+    Countdown.prototype.initializeCountdown = function() {
+      var countdownEnd;
+      countdownEnd = 1520985599000;
+      updateCountdown(countdownEnd);
+      return window.countdown = setInterval((function() {
+        var distance;
+        distance = updateCountdown(countdownEnd);
+        if (distance < 0) {
+          clearInterval(window.countdown);
+          injectCountdownNumbers(0, 0, 0, 0);
+        }
+      }), 1000);
+    };
+
+    updateCountdown = function(countdownEnd) {
+      var days, distance, hours, minutes, now, seconds;
+      now = (new Date).getTime();
+      distance = countdownEnd - now;
+      days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      hours = Math.floor((distance / (1000 * 60 * 60)) % 24);
+      minutes = Math.floor((distance / 1000 / 60) % 60);
+      seconds = Math.floor(distance / 1000 % 60);
+      injectCountdownNumbers(days, hours, minutes, seconds);
+      return distance;
+    };
+
+    return Countdown;
+
+  })();
+
+  injectCountdownNumbers = function(days, hours, minutes, seconds) {
+    $('.days.amount').html(formatNumberString(days));
+    $('.hours.amount').html(formatNumberString(hours));
+    $('.minutes.amount').html(formatNumberString(minutes));
+    return $('.seconds.amount').html(formatNumberString(seconds));
+  };
+
+  formatNumberString = function(number) {
+    return ('0' + number).slice(-2);
+  };
+
+  $(document).on("turbolinks:load", function() {
+    var f;
+    f = new App.Countdown;
+    return f.initializeCountdown();
+  });
+
+}).call(this);
+:ET

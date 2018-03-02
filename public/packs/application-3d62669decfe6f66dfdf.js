@@ -32449,7 +32449,7 @@ exports.default = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.de
             if (networkId === 1) {
               alert('You are not on the Main Ethereum Network. Some information on this site will not load correctly');
             } else {
-              // alert('We are testing on Ropsten');
+              alert('We are testing on Ropsten');
             }
           }
 

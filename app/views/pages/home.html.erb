@@ -1,19 +1,20 @@
 <% provide(:home, "active") %>
 
-<section class="jumbotron jumbotron-fluid m-0 d-flex flex-column justify-content-center align-items-start">
+<section class="jumbotron jumbotron-fluid m-0  d-flex flex-column flex-lg-row justify-content-between align-items-center">
 
   <%= video_tag "VybMovie.mp4", id: 'headline-video', class: 'headline-video', autoplay: false, loop: "loop", muted: true %>
 
-  <div class='header main-headline reveal-jumbotron'>
+  <!--<div class='headline-image' style='background-image: url(<%= image_url 'haircut.png' %>)'></div>-->
 
-      <h1 class='mb-0'>What's Your VyB?</h1>
-      <p class='tagline mb-5'><small>Decentralizing global interpersonal rating system for social accountability</small></p>
+  <div class='header main-headline reveal-jumbotron' style="margin-top:200px">
+    <h1 class='mb-0'>What's Your VyB?</h1>
+    <p class='tagline mb-5'><small>Decentralized global interpersonal rating system for social accountability</small></p>
 
     <!-- Buttons -->
-    <div class='d-flex justify-content-start justify-sm-content-around'>
+    <!--<div class='d-flex justify-content-start justify-sm-content-around'>-->
       <!--<%= link_to 'Join ICO', new_user_registration_path, class: 'btn turquoise-btn mr-3' %>-->
       <!--<%= link_to 'Whitepaper', asset_path("Manestreem_Express Whitepaper_ManeStreem Express WhitePaper V5 2018-VIEW.pdf"), target: :_blank, class: 'btn transparent-btn' %>-->
-    </div>
+    <!--</div>-->
 
     <!-- Social media icon links -->
     <div class='d-flex mt-5 social-media-links'>
@@ -23,16 +24,52 @@
       <a href="https://www.instagram.com/vyb.io/" target='_blank'><i class='ion-social-instagram royal-blue'></i></a>
     </div>
   </div>
+
+    <!-- ICO box -->
+  <!--<div class='featured-box'>-->
+    <!--<div class='top-section'>-->
+
+      <!--<span class='rate'>-->
+        <!--<small class='text-uppercase'>Token price:</small><br>-->
+        <!--<b>1 ETH = 10,000 MANE</b>-->
+      <!--</span>-->
+      <!--<span class='eco-green'>-->
+        <!--<small class='text-uppercase'>Next phase:</small>-->
+        <!--<br>-->
+        <!--1 ETH = 5,000 MANE-->
+      <!--</span>-->
+    <!--</div>-->
+    <!--&lt;!&ndash; <div class='progress-row'>-->
+      <!--<div class="progress" style="height: 25px;">-->
+        <!--<div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>-->
+      <!--</div>-->
+    <!--</div> &ndash;&gt;-->
+    <!--<div class='main-countdown'>-->
+      <!--<span class='hours white d-flex justify-content-between'>-->
+        <!--<div class='days amount'></div>-->
+        <!--<div>:</div>-->
+        <!--<div class='hours amount'></div>-->
+        <!--<div>:</div>-->
+        <!--<div class='minutes amount'></div>-->
+        <!--<div>:</div>-->
+        <!--<div class='seconds amount'></div>-->
+      <!--</span>-->
+      <!--<span class='title royal-blue text-uppercase d-flex justify-content-between'>-->
+        <!--<div>days</div>-->
+        <!--<div>hrs</div>-->
+        <!--<div>min</div>-->
+        <!--<div>sec</div>-->
+      <!--</span>-->
+    <!--</div>-->
+  <!--</div>-->
+
 </section>
-
-
-
+<%= render 'what_is_vyb' %>
 <%= render 'team' %>
 
 <!--
 This entire section is commented for now
 <%= render 'featured_in' %>
-<%= render 'what_is_manestreem' %>
 <%= render 'beauty_on_tap' %>
 <%= render 'features' %>
 <%= render 'why_blockchain' %>

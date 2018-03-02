@@ -69,7 +69,7 @@ class PagesController < ApplicationController
   end
 
   def admin
-    redirect_to ico_path unless [1, 3, 122].include? current_user.id
+    redirect_to ico_path unless current_user.admin?
 
     @user_info = User.pluck(:email, :sign_in_count, :last_sign_in_at)
   end

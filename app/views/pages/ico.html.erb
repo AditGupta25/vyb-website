@@ -33,8 +33,37 @@
 					<span class='thick-text'>Price will be: 1ETH = 5,000 MANE</span>
 				</p>
 			</div>
-
+			<div class='card-body electric-purple-bg countdown'>
+	      <span class='hours eco-green d-flex justify-content-between'>
+	        <div class='days amount'></div>
+	        <div class='divider'>:</div>
+	        <div class='hours amount'></div>
+	        <div class='divider'>:</div>
+	        <div class='minutes amount'></div>
+	        <div class='divider'>:</div>
+	        <div class='seconds amount'></div>
+	      </span>
+	      <span class='title royal-blue text-uppercase d-flex justify-content-between'>
+	        <div>days</div>
+	        <div>hrs</div>
+	        <div>min</div>
+	        <div>sec</div>
+	      </span>
+	    </div>
 		</div>
+
+		<!-- <div class="card dark-blue-bg mb-3">
+			<div class="card-body">
+				<h4 class='text-uppercase thin-text faded-blue'>Referrals</h4>
+				<% if current_user.eth_address.present? %>
+					<p class='white'>Referrals are set up!</p>
+					<%= link_to "Referral Link", referral_link_path, class: 'btn turquoise-btn btn-block' %>
+				<% else %>
+					<p class='white'>Tell your friends about ManeCoin and earn bonus tokens!</p>
+					<%= link_to "Referrals", referrals_path, class: 'btn turquoise-btn btn-block' %>
+				<% end %>
+			</div>
+		</div> -->
 	</div>
 
 	<div class='col-lg-8 justify-content-center'>

@@ -16,7 +16,7 @@
     .header.main-headline {
       padding: 0 60px 0 0;
       h1 {
-        font-size: 39px;
+        font-size: 32px;
         font-weight: 400;
       }
       .btn {
@@ -24,15 +24,18 @@
       }
     }
     .featured-box {
-	    border-radius: 11px 0 0 11px;
-	    min-width: 400px;
-      max-width: 525px;
-	    .rate {
-	      font-size: 32px;
-	    }
-	    .hours {
-	      font-size: 48px;
-	    }
+	    min-width: 300px;
+      max-width: 425px;
+      // margin-right: 50px;
+      .main-countdown {
+        padding: 0px;
+        .rate span {
+          font-size: 32px;
+        }
+        .hours {
+          font-size: 48px;
+        }
+      }
 	  }
   }
   .content {

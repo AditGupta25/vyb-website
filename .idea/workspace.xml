@@ -1,30 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="652eb997-14a9-4637-8162-a8f690857852" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/ManeStreem_Beauty_at_the_TAP_OF_AN_APP_(online-video-cutter.com)-2.mp4" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/alan.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/alan_zeiger.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/florian.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/isaac.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/jim.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/jim_demarco.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/joe.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/joe_messa.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/john.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/kim.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/martino.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/ryan.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/santos.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/saransh_sharma.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/team-picture-holder.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/init.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/init.coffee" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/_home-layout.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/_home-layout.scss" />
-      <change beforePath="$PROJECT_DIR$/app/views/pages/_team.html.erb" afterPath="$PROJECT_DIR$/app/views/pages/_team.html.erb" />
-      <change beforePath="$PROJECT_DIR$/app/views/pages/home.html.erb" afterPath="$PROJECT_DIR$/app/views/pages/home.html.erb" />
-      <change beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
-    </list>
+    <list default="true" id="652eb997-14a9-4637-8162-a8f690857852" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/public/system/" />
@@ -43,8 +20,8 @@
       <file leaf-file-name="home.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/pages/home.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+            <state relative-caret-position="240">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -74,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/app/views/pages/_team.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="660">
-              <caret line="44" column="23" lean-forward="true" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
+              <caret line="44" column="23" lean-forward="false" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
@@ -345,12 +322,12 @@
       <updated>1519080347808</updated>
       <workItem from="1519080349953" duration="1969000" />
       <workItem from="1519229608395" duration="1885000" />
-      <workItem from="1519675690505" duration="1952000" />
+      <workItem from="1519675690505" duration="2679000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5806000" />
+    <option name="totallyTimeSpent" value="6533000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -556,14 +533,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pages/admin.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -575,7 +544,7 @@
     <entry file="file://$PROJECT_DIR$/app/views/pages/_team.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
-          <caret line="44" column="23" lean-forward="true" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
+          <caret line="44" column="23" lean-forward="false" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
@@ -633,10 +602,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pages/home.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
