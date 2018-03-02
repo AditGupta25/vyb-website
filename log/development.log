@@ -556,3 +556,76 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 101ms (Views: 99.1ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-03-02 09:57:50 -0500
+  [1m[35m (8.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_what_is_vyb.html.erb (1.5ms)
+  Rendered pages/_team.html.erb (2.8ms)
+  Rendered pages/_featured_in.html.erb (5.9ms)
+  Rendered pages/_beauty_on_tap.html.erb (0.5ms)
+  Rendered pages/_features.html.erb (3.2ms)
+  Rendered pages/_why_blockchain.html.erb (0.4ms)
+  Rendered pages/_pricing.html.erb (0.3ms)
+  Rendered pages/_team.html.erb (0.9ms)
+  Rendered pages/_roadmap.html.erb (0.8ms)
+  Rendered pages/home.html.erb within layouts/application (1932.6ms)
+  Rendered navigation/_navbar.html.erb (11.5ms)
+  Rendered navigation/_footer.html.erb (1.2ms)
+Completed 200 OK in 2121ms (Views: 2090.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-02 10:02:42 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_what_is_vyb.html.erb (1.7ms)
+  Rendered pages/_team.html.erb (283.9ms)
+  Rendered pages/_featured_in.html.erb (4.4ms)
+  Rendered pages/_beauty_on_tap.html.erb (0.3ms)
+  Rendered pages/_features.html.erb (3.5ms)
+  Rendered pages/_why_blockchain.html.erb (0.5ms)
+  Rendered pages/_pricing.html.erb (0.2ms)
+  Rendered pages/_team.html.erb (1.1ms)
+  Rendered pages/_roadmap.html.erb (0.8ms)
+  Rendered pages/home.html.erb within layouts/application (327.1ms)
+  Rendered navigation/_navbar.html.erb (1.6ms)
+  Rendered navigation/_footer.html.erb (1.1ms)
+Completed 200 OK in 414ms (Views: 410.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-02 10:03:37 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_what_is_vyb.html.erb (1.2ms)
+  Rendered pages/_team.html.erb (201.7ms)
+  Rendered pages/_featured_in.html.erb (3.4ms)
+  Rendered pages/_beauty_on_tap.html.erb (0.4ms)
+  Rendered pages/_features.html.erb (3.4ms)
+  Rendered pages/_why_blockchain.html.erb (0.3ms)
+  Rendered pages/_pricing.html.erb (0.2ms)
+  Rendered pages/_team.html.erb (0.8ms)
+  Rendered pages/_roadmap.html.erb (0.4ms)
+  Rendered pages/home.html.erb within layouts/application (231.6ms)
+  Rendered navigation/_navbar.html.erb (1.2ms)
+  Rendered navigation/_footer.html.erb (0.8ms)
+Completed 200 OK in 302ms (Views: 299.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-02 10:04:33 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_what_is_vyb.html.erb (1.1ms)
+  Rendered pages/_team.html.erb (154.8ms)
+  Rendered pages/_featured_in.html.erb (4.5ms)
+  Rendered pages/_beauty_on_tap.html.erb (0.4ms)
+  Rendered pages/_features.html.erb (5.0ms)
+  Rendered pages/_why_blockchain.html.erb (0.3ms)
+  Rendered pages/_pricing.html.erb (0.3ms)
+  Rendered pages/_team.html.erb (1.0ms)
+  Rendered pages/_roadmap.html.erb (0.5ms)
+  Rendered pages/home.html.erb within layouts/application (199.4ms)
+  Rendered navigation/_navbar.html.erb (1.3ms)
+  Rendered navigation/_footer.html.erb (1.0ms)
+Completed 200 OK in 271ms (Views: 268.4ms | ActiveRecord: 0.0ms)
+
+
