@@ -4,7 +4,7 @@ import 'zeppelin/contracts/token/StandardToken.sol';
 import 'zeppelin/contracts/math/SafeMath.sol';
 import 'zeppelin/contracts/ownership/Ownable.sol';
 
-contract MANETokenCrowdsale is Ownable {
+contract VybCoinCrowdsale is Ownable {
   using SafeMath for uint256;
 
   // The token being sold
@@ -33,7 +33,7 @@ contract MANETokenCrowdsale is Ownable {
   event TokenPurchase(address indexed purchaser, address indexed beneficiary, uint256 value, uint256 amount);
 
 
-  function MANETokenCrowdsale(
+  function VybCoinCrowdsale(
     uint256 _endTime,
     uint256 _rate,
     address _wallet,
