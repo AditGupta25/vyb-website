@@ -10,11 +10,11 @@ $white:        white;
 
 // new colors
 $faded-blue: #80D8FF;
-$turquoise: #83cccb;
+$turquoise: #13D8B2;
 $dark-purple: #311B92;
 $blue: #2196F3;
 $dark-blue: #1C135E;
-$ultra-turquoise: #83cccb;
+$ultra-turquoise: #09F6CA;
 
 $red: rgb(255, 99, 132);
 $orange: rgb(255, 159, 64);
@@ -34,11 +34,11 @@ $color-list:
   "yellow"                 rgb(255, 205, 86),
   "white"                  white,
   "faded-blue"             #80D8FF,
-  "turquoise"              #83cccb,
+  "turquoise"              #13D8B2,
   "dark-purple"            #311B92,
   "blue"                   #2196F3,
   "dark-blue"              #1C135E,
-  "ultra-turquoise"        #83cccb;
+  "ultra-turquoise"        #09F6CA;
 
 @each $value in $color-list {
   .#{nth($value, 1)} {
@@ -110,7 +110,6 @@ $color-list:
 
 .royal-blue-btn {
   background: $royal-blue;
-  box-shadow:  0px 21px 14px 0px rgba(0,0,0,0.2);
   color: white;
   &:hover {
     background: darken($royal-blue, 15%);

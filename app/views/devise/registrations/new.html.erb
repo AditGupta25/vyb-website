@@ -1,12 +1,22 @@
 <section class="jumbotron jumbotron-fluid m-0">
-  <div class='headline-image' style='background-image: url(<%= image_url("haircut.png") %>)'></div>
+  <div class='headline-image' style='background-image: url(<%= image_url("coffee.png") %>)'></div>
 
 
   <div class='row'>
     <div class='col-md-6 offset-md-3 col-lg-4 offset-lg-4'>
       <div class='login-box'>
-        <p class='eco-green text-center'>Join the crowdsale</p>
-        <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+        <p class='eco-green text-center'>Hi There!</p>
+        <br>
+        <p>Please check back by May 30th, 2018 for an updated page with investor's invormation<p>
+        <br>
+        <br>
+        <div style="text-align: center;">
+        <%= link_to 'Back', href="/", class: 'btn turquoise-btn my-2 my-sm-0' %>
+        </div>
+        <br>
+
+
+        <!--<%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
 
           <%= devise_error_messages! %>
 
@@ -38,9 +48,7 @@
           <div class="actions">
             <%= f.submit "Sign up", class: 'btn btn-block turquoise-btn' %>
           </div>
-        <% end %>
-
-        <%= render "devise/shared/links" %>
+        <% end %>-->
       </div>
     </div>
   </div>

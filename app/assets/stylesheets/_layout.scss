@@ -51,8 +51,8 @@ h3.postify {
   }
 
   .white_circle_logo {
-    height: 100px;
-    width: 100px;
+    height: 75px;
+    width: 75px;
     float: left;
   }
   .logo_text {
@@ -64,7 +64,7 @@ h3.postify {
     .logo_tagline {
       font-size: 10px;
       font-weight: normal;
-      margin-top: -7px;
+      margin-top: 5px;
     }
   }
 
@@ -103,8 +103,70 @@ h3.postify {
     padding: 0;
   }
 }
+.argument-section {
+  .argument-card {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.08), 0 1px 5px 0 rgba(0,0,0,0.08), 0 3px 1px -2px rgba(0,0,0,0.08);
+    width: 100%;
+    height: 150px;
+    margin: 0 0 10px 0;
+    &.highlighted {
+      background: rgb(28,19,94); /* Old browsers */
+      background: -moz-linear-gradient(top, rgba(28,19,94,1) 0%, rgba(49,27,146,1) 100%); /* FF3.6-15 */
+      background: -webkit-linear-gradient(top, rgba(28,19,94,1) 0%,rgba(49,27,146,1) 100%); /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to bottom, rgba(28,19,94,1) 0%,rgba(49,27,146,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c135e', endColorstr='#311b92',GradientType=0 ); /* IE6-9 */
+    }
+    span {
+      font-size: 14px!important;
+    }
+  }
+}
+@include media-breakpoint-up(md) {
+  .argument-section {
+    .argument-card {
+      width: 170px;
+      height: 170px;
+      &.highlighted {
+        width: 190px;
+        height: 190px;
+      }
+    }
+  }
+}
+@include media-breakpoint-up(lg) {
+  .argument-section {
+    .argument-card {
+      width: 215px;
+      height: 215px;
+      &.highlighted {
+        width: 240px;
+        height: 240px;
+      }
+    }
+  }
+}
 
 .black_circle_logo {
   width: 50px;
   height: 50px;
+}
+
+#telegram-fab {
+  background-color: white;
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  z-index: 300;
+  i {
+    color: $turquoise;
+    border-radius: 50%;
+    box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.2);
+    &:hover {
+      color: darken($turquoise, 10) !important;
+    }
+  }
+
 }
