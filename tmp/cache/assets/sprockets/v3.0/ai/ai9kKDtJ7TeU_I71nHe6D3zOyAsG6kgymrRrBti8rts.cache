@@ -1,0 +1,9 @@
+I"·(function() {
+  $(document).on("turbolinks:load", function() {
+    if ($('#user-info-table').length > 0) {
+      return $('#user-info-table').DataTable();
+    }
+  });
+
+}).call(this);
+:ET
