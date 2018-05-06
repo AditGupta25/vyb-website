@@ -3167,3 +3167,72 @@ Use `bundle info [gemname]` to see where a bundled gem is installed.
 Completed 200 OK in 667ms (Views: 664.1ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-05-06 15:50:00 -0700
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_what_is_vyb.html.erb (1.1ms)
+  Rendered pages/_explainer.html.erb (0.4ms)
+  Rendered pages/_team.html.erb (2.4ms)
+  Rendered pages/home.html.erb within layouts/application (1773.8ms)
+[Webpacker] Compiling…
+Started GET "/" for 127.0.0.1 at 2018-05-06 15:50:04 -0700
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_what_is_vyb.html.erb (1.5ms)
+  Rendered pages/_explainer.html.erb (0.9ms)
+  Rendered pages/_team.html.erb (4.4ms)
+  Rendered pages/home.html.erb within layouts/application (16.1ms)
+  Rendered navigation/_navbar.html.erb (0.7ms)
+  Rendered navigation/_footer.html.erb (0.7ms)
+Completed 200 OK in 98ms (Views: 94.6ms | ActiveRecord: 0.0ms)
+
+
+[Webpacker] Compiled all packs in /Users/agupta310/Desktop/vyb-website/public/packs
+  Rendered navigation/_navbar.html.erb (1.0ms)
+  Rendered navigation/_footer.html.erb (0.9ms)
+Completed 200 OK in 6120ms (Views: 6109.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-05-06 15:50:09 -0700
+Processing by RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/registrations/new.html.erb within layouts/application (24.2ms)
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-05-06 15:50:10 -0700
+Processing by RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered navigation/_navbar.html.erb (2.0ms)
+  Rendered navigation/_footer.html.erb (2.1ms)
+Completed 200 OK in 200ms (Views: 167.8ms | ActiveRecord: 5.5ms)
+
+
+  Rendered devise/registrations/new.html.erb within layouts/application (21.1ms)
+  Rendered navigation/_navbar.html.erb (1.0ms)
+  Rendered navigation/_footer.html.erb (1.4ms)
+Completed 200 OK in 145ms (Views: 143.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-06 15:50:11 -0700
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_what_is_vyb.html.erb (1.5ms)
+  Rendered pages/_explainer.html.erb (0.6ms)
+  Rendered pages/_team.html.erb (3.3ms)
+  Rendered pages/home.html.erb within layouts/application (14.5ms)
+  Rendered navigation/_navbar.html.erb (0.8ms)
+  Rendered navigation/_footer.html.erb (1.4ms)
+Completed 200 OK in 119ms (Views: 115.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-06 15:50:29 -0700
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_what_is_vyb.html.erb (1.5ms)
+  Rendered pages/_explainer.html.erb (0.7ms)
+  Rendered pages/_team.html.erb (3.7ms)
+  Rendered pages/home.html.erb within layouts/application (16.7ms)
+  Rendered navigation/_navbar.html.erb (0.8ms)
+  Rendered navigation/_footer.html.erb (0.9ms)
+Completed 200 OK in 94ms (Views: 91.8ms | ActiveRecord: 0.0ms)
+
+
