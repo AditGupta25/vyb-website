@@ -1,13 +1,15 @@
 <% provide(:home, "active") %>
 
+<div id="home"></div>
 <section class="jumbotron jumbotron-fluid m-0  d-flex flex-column flex-lg-row justify-content-between align-items-center">
 
   <%= video_tag "VybMovie.mp4", id: 'headline-video', class: 'headline-video', autoplay: false, loop: "loop", muted: true %>
 
   <div class='headline-image' style='background-image: url(<%= image_url 'coffee.png' %>)'></div>
 
-  <div class='header main-headline reveal-jumbotron' style="margin-top:200px">
-    <h1 class='mb-2'><b>Whats your VyB?</b></h1>
+  <div class='header main-headline reveal-jumbotron'>
+
+    <h1 class='mb-2'><b>What's your VyB?</b></h1>
     <h2 class='tagline mb-4'>Decentralized global interpersonal rating system</h2>
 
     <!-- Buttons -->
@@ -24,13 +26,15 @@
       <a href="https://www.linkedin.com/company/vyb-io/" target='_blank'><i class='ion-social-linkedin royal-blue'></i></a>
       <a href="https://www.instagram.com/vyb.io/" target='_blank'><i class='ion-social-instagram royal-blue'></i></a>
       <%= link_to 'Telegram Group', "https://t.me/joinchat/IeFimg9TGHwplcgYojTMYg", target: :_blank, class: 'd-sm-none telegram btn transparent-btn' %>
-
     </div>
+
   </div>
 
 </section>
 
+
 <!--disrupting_industry-->
 <%= render 'what_is_vyb' %>
 <%= render 'explainer' %>
+<%= render 'features' %>
 <%= render 'team' %>
