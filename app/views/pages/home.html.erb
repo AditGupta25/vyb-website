@@ -5,36 +5,39 @@
 
   <%= video_tag "VybMovie.mp4", id: 'headline-video', class: 'headline-video', autoplay: false, loop: "loop", muted: true %>
 
-  <div class='headline-image' style='background-image: url(<%= image_url 'coffee.png' %>)'></div>
+  <div class='headline-image' style='background-image: url(<%= image_url 'vyb.png' %>)'></div>
 
   <div class='header main-headline reveal-jumbotron'>
 
-    <h1 class='mb-2'><b>What's your VyB?</b></h1>
-    <h2 class='tagline mb-4'>Decentralized global interpersonal rating system</h2>
+    <h1 class='mb-2'><b>What's Your VyB?</b></h1>
+    <h2 class='tagline mb-4'>VyB brings <u>transparency</u> and <u>accountability</u> into the world.</h2>
 
     <!-- Buttons -->
     <div class='d-flex justify-content-start justify-sm-content-around'>
-      <%= link_to 'For Investors', new_user_registration_path, class: 'join-ico btn turquoise-btn mr-3' %>
-      <%= link_to 'Join the Telegram Group', "https://t.me/joinchat/IeFimg9TGHwplcgYojTMYg", target: :_blank, class: 'd-none d-sm-block telegram btn transparent-btn' %>
-      <%= link_to 'Telegram Group', "https://t.me/joinchat/IeFimg9TGHwplcgYojTMYg", target: :_blank, class: 'd-sm-none telegram btn transparent-btn' %>
+
+      <p class='join-ico btn turquoise-btn mr-3'>Learn More</p>
+      <a href="https://fs27.formsite.com/jXj1Rk/form2/index.html
+" target="_blank"><p class='d-none d-sm-block telegram btn transparent-btn'>Join the Newsletter</p></a>
+
     </div>
 
     <!-- Social media icon links -->
-    <div class='d-flex mt-5 social-media-links'>
+    <div class='d-flex mt-4 social-media-links'>
       <a href="https://www.facebook.com/MyVyB" target='_blank'><i class='ion-social-facebook royal-blue'></i></a>
       <a href="https://twitter.com/vyb_io" target='_blank'><i class='ion-social-twitter royal-blue'></i></a>
-      <a href="https://www.linkedin.com/company/vyb-io/" target='_blank'><i class='ion-social-linkedin royal-blue'></i></a>
-      <a href="https://www.instagram.com/vyb.io/" target='_blank'><i class='ion-social-instagram royal-blue'></i></a>
-      <%= link_to 'Telegram Group', "https://t.me/joinchat/IeFimg9TGHwplcgYojTMYg", target: :_blank, class: 'd-sm-none telegram btn transparent-btn' %>
-    </div>
+      <a href="https://www.linkedin.com/company/myvyb/" target='_blank'><i class='ion-social-linkedin royal-blue'></i></a>
+      <a href="https://www.instagram.com/myvyb.io/" target='_blank'><i class='ion-social-instagram royal-blue'></i></a>
 
+    </div>
   </div>
 
+
 </section>
-
-
-<!--disrupting_industry-->
-<%= render 'what_is_vyb' %>
+<%= render 'featured_in' %>
 <%= render 'explainer' %>
+<%= render 'disrupting_feedback_industry' %>
+<%= render 'what_is_vyb' %>
 <%= render 'features' %>
+<%= render 'opt_ins' %>
 <%= render 'team' %>
+<%= render 'opt_ins' %>

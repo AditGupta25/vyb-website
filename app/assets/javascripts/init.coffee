@@ -21,6 +21,7 @@ App.init = ->
     sr.reveal('.reveal-jumbotron', { duration: 800 });
     sr.reveal('.reveal-card-left', { duration: 1200, origin: 'left', distance: '120px'});
     sr.reveal('.reveal-card-right', { duration: 1200, origin: 'right', distance: '120px'});
+    sr.reveal('.reveal-card-up', { duration: 1200, origin: 'bottom', distance: '120px'});
 
 $(document).on "turbolinks:load", ->
   App.init()

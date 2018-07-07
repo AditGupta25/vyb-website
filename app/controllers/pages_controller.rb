@@ -74,6 +74,16 @@ class PagesController < ApplicationController
     @user_info = User.pluck(:email, :sign_in_count, :last_sign_in_at)
   end
 
+  def email_csv
+    if current_user.admin?
+      respond_to do |format|
+        format.csv { send_data User.email_csv }
+      end
+    else
+      head :forbidden
+    end
+  end
+
   def set_random_guests
     if session[:random_guests].nil?
       session[:random_guests] = rand(8..22)

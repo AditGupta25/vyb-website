@@ -1,3 +1,4 @@
+require 'csv'
 class User < ApplicationRecord
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable and :omniauthable
@@ -15,4 +16,14 @@ class User < ApplicationRecord
     referrer_id.present? && eth_address.nil? && update(eth_address: '')
   end
 
+  class << self
+    def email_csv
+      CSV.generate(headers: true) do |csv|
+        csv << %w{email}
+        all.each do |user|
+          csv << user.attributes.values_at(*%w{email})
+        end
+      end
+    end
+  end
 end

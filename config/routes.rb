@@ -5,6 +5,9 @@ Rails.application.routes.draw do
   root 'pages#home'
   get 'privacy', to: 'pages#privacy', as: 'privacy'
 
+  get 'team', to: 'pages#team', as: 'team'
+
+
   get 'roadmap', to: 'pages#road_map', as: 'road_map'
   get 'faq', to: 'pages#faq', as: 'faq'
 
@@ -22,4 +25,5 @@ Rails.application.routes.draw do
   patch 'eth_address_form_submit', to: 'pages#eth_address_form_submit', as: 'eth_address_form_submit'
 
   get 'admin', to: 'pages#admin', as: 'admin'
+  get 'email_csv', to: 'pages#email_csv'
 end

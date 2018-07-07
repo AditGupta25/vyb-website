@@ -10,6 +10,7 @@ $white:        white;
 
 // new colors
 $faded-blue: #80D8FF;
+$purple: #4F2573;
 $turquoise: #13D8B2;
 $dark-purple: #311B92;
 $blue: #2196F3;
@@ -88,6 +89,17 @@ $color-list:
     color: white;
   }
 }
+
+.purple-btn {
+  background: $purple;
+  // box-shadow:  0px 21px 14px 0px rgba(0,0,0,0.2);
+  color: white;
+  &:hover {
+    background: darken($purple, 15%);
+    color: white;
+  }
+}
+
 .transparent-btn {
   background: transparent;
   // box-shadow:  0px 21px 14px 0px rgba(0,0,0,0.2);

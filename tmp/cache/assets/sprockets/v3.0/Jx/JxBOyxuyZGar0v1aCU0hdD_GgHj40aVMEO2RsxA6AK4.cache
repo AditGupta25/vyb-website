@@ -1,0 +1,47 @@
+I"‹(function() {
+  App.Mix = (function() {
+    function Mix() {}
+
+    Mix.prototype.init = function() {
+      if ($('#home').length > 0) {
+        mixpanel.track("Homepage view");
+      }
+      if ($('#ico').length > 0) {
+        mixpanel.track("ICO view");
+      }
+      $('body').on('click', '.join-ico', function() {
+        return mixpanel.track("Join ICO click");
+      });
+      $('body').on('click', '.whitepaper', function() {
+        return mixpanel.track("Whitepaper click");
+      });
+      $('body').on('click', '.telegram', function() {
+        return mixpanel.track("Join Telegram click");
+      });
+      if ($('.registration').length > 0) {
+        return $('.registration').submit(function(e) {
+          var email;
+          email = $(this).find('#user_email').val();
+          mixpanel.alias(email);
+          mixpanel.people.set({
+            '$email': email
+          });
+          return mixpanel.track('Registration', {
+            email: email
+          });
+        });
+      }
+    };
+
+    return Mix;
+
+  })();
+
+  $(document).on("turbolinks:load", function() {
+    var mix;
+    mix = new App.Mix;
+    return mix.init();
+  });
+
+}).call(this);
+:ET

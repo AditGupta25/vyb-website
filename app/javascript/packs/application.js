@@ -9,17 +9,21 @@
 
 import web3Init from '../web3/web3Init'
 import addresses from '../addresses'
-import maneToken from '../web3/maneToken'
-import maneTokenCrowdsale from '../web3/maneTokenCrowdsale'
+import countdown from '../countdown'
+import MANEToken from '../web3/maneToken'
+import MANETokenCrowdsale from '../web3/maneTokenCrowdsale'
+import MANETokenPartnerCrowdsale from '../web3/maneTokenPartnerCrowdsale'
 
 global.Application = {
   init: async () => {
     await web3Init();
     addresses.init();
+    countdown.initializeCountdown();
   },
   Contracts: {
-    MANEToken: maneToken,
-    MANETokenCrowdsale: maneTokenCrowdsale
+    MANEToken,
+    MANETokenCrowdsale,
+    MANETokenPartnerCrowdsale
   }
 };
 

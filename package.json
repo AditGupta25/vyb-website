@@ -2,6 +2,7 @@
   "name": "website",
   "private": true,
   "scripts": {
+    "truffle-staging": "cd truffle && truffle migrate --network staging --reset ",
     "truffle-test": "cd truffle && truffle test"
   },
   "dependencies": {

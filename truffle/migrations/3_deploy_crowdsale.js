@@ -1,5 +1,5 @@
-var Token = artifacts.require("./VybCoin.sol");
-var Crowdsale = artifacts.require("./VybCoinCrowdsale.sol");
+var Token = artifacts.require("./MANEToken.sol");
+var Crowdsale = artifacts.require("./MANETokenCrowdsale.sol");
 
 module.exports = function(deployer) {
   deployer.deploy(Crowdsale,
