@@ -15,7 +15,8 @@
     <!-- Buttons -->
     <div class='d-flex justify-content-start justify-sm-content-around'>
 
-      <p class='join-ico btn turquoise-btn mr-3'>Learn More</p>
+      <a href="#whatIsVyb"><p class='join-ico btn turquoise-btn mr-3'>Learn More</p></a>
+
       <a href="https://fs27.formsite.com/jXj1Rk/form2/index.html
 " target="_blank"><p class='d-none d-sm-block telegram btn transparent-btn'>Join the Newsletter</p></a>
 
@@ -30,14 +31,26 @@
 
     </div>
   </div>
-
-
 </section>
+
 <%= render 'featured_in' %>
+
 <%= render 'explainer' %>
+
 <%= render 'disrupting_feedback_industry' %>
-<%= render 'what_is_vyb' %>
+
+<div id="whatIsVyb">
+  <%= render 'what_is_vyb' %>
+</div>
+
 <%= render 'features' %>
+
 <%= render 'opt_ins' %>
-<%= render 'team' %>
+
+<div id="meetTheTeam">
+  <%= render 'team' %>
+</div>
+
+<%= render 'crypto_information' %>
+
 <%= render 'opt_ins' %>

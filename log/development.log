@@ -3189,3 +3189,998 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 182ms (Views: 179.3ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-07-08 00:40:19 -0400
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_featured_in.html.erb (21.0ms)
+  Rendered pages/_explainer.html.erb (1.0ms)
+  Rendered pages/_disrupting_feedback_industry.html.erb (5.8ms)
+  Rendered pages/_what_is_vyb.html.erb (4.7ms)
+  Rendered pages/_features.html.erb (0.5ms)
+  Rendered pages/_opt_ins.html.erb (0.5ms)
+  Rendered pages/_team.html.erb (6.6ms)
+  Rendered pages/_opt_ins.html.erb (0.1ms)
+  Rendered pages/home.html.erb within layouts/application (2677.4ms)
+  Rendered layouts/_scripts.html.erb (14.5ms)
+  Rendered navigation/_navbar.html.erb (14.1ms)
+  Rendered navigation/_footer.html.erb (1.4ms)
+Completed 200 OK in 3015ms (Views: 2986.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-08 00:41:45 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_featured_in.html.erb (5.4ms)
+  Rendered pages/_explainer.html.erb (0.5ms)
+  Rendered pages/_disrupting_feedback_industry.html.erb (3.2ms)
+  Rendered pages/_what_is_vyb.html.erb (1.9ms)
+  Rendered pages/_features.html.erb (0.5ms)
+  Rendered pages/_opt_ins.html.erb (0.4ms)
+  Rendered pages/_team.html.erb (5.2ms)
+  Rendered pages/_opt_ins.html.erb (0.1ms)
+  Rendered pages/home.html.erb within layouts/application (34.5ms)
+  Rendered layouts/_scripts.html.erb (0.9ms)
+  Rendered navigation/_navbar.html.erb (3.6ms)
+  Rendered navigation/_footer.html.erb (1.1ms)
+Completed 200 OK in 120ms (Views: 117.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-08 00:45:32 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_featured_in.html.erb (5.6ms)
+  Rendered pages/_explainer.html.erb (0.6ms)
+  Rendered pages/_disrupting_feedback_industry.html.erb (4.0ms)
+  Rendered pages/_what_is_vyb.html.erb (1.3ms)
+  Rendered pages/_features.html.erb (0.3ms)
+  Rendered pages/_opt_ins.html.erb (0.4ms)
+  Rendered pages/_team.html.erb (6.4ms)
+  Rendered pages/_opt_ins.html.erb (0.1ms)
+  Rendered pages/home.html.erb within layouts/application (36.7ms)
+  Rendered layouts/_scripts.html.erb (0.8ms)
+  Rendered navigation/_navbar.html.erb (2.8ms)
+  Rendered navigation/_footer.html.erb (1.3ms)
+Completed 200 OK in 114ms (Views: 112.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/whatIsVyb" for 127.0.0.1 at 2018-07-08 00:45:38 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/whatIsVyb"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+webpacker (3.2.1) lib/webpacker/dev_server_proxy.rb:18:in `perform_request'
+rack-proxy (0.6.3) lib/rack/proxy.rb:57:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-07-08 00:45:41 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_featured_in.html.erb (12.3ms)
+  Rendered pages/_explainer.html.erb (1.3ms)
+  Rendered pages/_disrupting_feedback_industry.html.erb (6.9ms)
+  Rendered pages/_what_is_vyb.html.erb (2.6ms)
+  Rendered pages/_features.html.erb (0.6ms)
+  Rendered pages/_opt_ins.html.erb (0.8ms)
+  Rendered pages/_team.html.erb (8.0ms)
+  Rendered pages/_opt_ins.html.erb (0.1ms)
+  Rendered pages/home.html.erb within layouts/application (70.5ms)
+  Rendered layouts/_scripts.html.erb (0.8ms)
+  Rendered navigation/_navbar.html.erb (3.6ms)
+  Rendered navigation/_footer.html.erb (5.8ms)
+Completed 200 OK in 174ms (Views: 170.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-08 00:45:41 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_featured_in.html.erb (8.3ms)
+  Rendered pages/_explainer.html.erb (0.7ms)
+  Rendered pages/_disrupting_feedback_industry.html.erb (9.7ms)
+  Rendered pages/_what_is_vyb.html.erb (3.0ms)
+  Rendered pages/_features.html.erb (0.4ms)
+  Rendered pages/_opt_ins.html.erb (0.5ms)
+  Rendered pages/_team.html.erb (10.0ms)
+  Rendered pages/_opt_ins.html.erb (0.1ms)
+  Rendered pages/home.html.erb within layouts/application (64.1ms)
+  Rendered layouts/_scripts.html.erb (0.9ms)
+  Rendered navigation/_navbar.html.erb (2.6ms)
+  Rendered navigation/_footer.html.erb (3.3ms)
+Completed 200 OK in 195ms (Views: 188.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-08 00:45:49 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_featured_in.html.erb (13.1ms)
+  Rendered pages/_explainer.html.erb (1.0ms)
+  Rendered pages/_disrupting_feedback_industry.html.erb (7.3ms)
+  Rendered pages/_what_is_vyb.html.erb (8.6ms)
+  Rendered pages/_features.html.erb (0.5ms)
+  Rendered pages/_opt_ins.html.erb (0.7ms)
+  Rendered pages/_team.html.erb (16.7ms)
+  Rendered pages/_opt_ins.html.erb (0.1ms)
+  Rendered pages/home.html.erb within layouts/application (86.6ms)
+  Rendered layouts/_scripts.html.erb (0.8ms)
+  Rendered navigation/_navbar.html.erb (2.2ms)
+  Rendered navigation/_footer.html.erb (1.5ms)
+Completed 200 OK in 228ms (Views: 224.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-08 00:46:42 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_featured_in.html.erb (7.9ms)
+  Rendered pages/_explainer.html.erb (0.9ms)
+  Rendered pages/_disrupting_feedback_industry.html.erb (4.7ms)
+  Rendered pages/_what_is_vyb.html.erb (6.5ms)
+  Rendered pages/_features.html.erb (0.7ms)
+  Rendered pages/_opt_ins.html.erb (1.1ms)
+  Rendered pages/_team.html.erb (23.9ms)
+  Rendered pages/_opt_ins.html.erb (0.1ms)
+  Rendered pages/home.html.erb within layouts/application (96.2ms)
+  Rendered layouts/_scripts.html.erb (0.8ms)
+  Rendered navigation/_navbar.html.erb (3.8ms)
+  Rendered navigation/_footer.html.erb (1.3ms)
+Completed 200 OK in 205ms (Views: 201.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-08 01:21:43 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_featured_in.html.erb (8.6ms)
+  Rendered pages/_explainer.html.erb (0.6ms)
+  Rendered pages/_disrupting_feedback_industry.html.erb (4.6ms)
+  Rendered pages/_what_is_vyb.html.erb (2.0ms)
+  Rendered pages/_features.html.erb (0.4ms)
+  Rendered pages/_opt_ins.html.erb (0.6ms)
+  Rendered pages/_team.html.erb (11.4ms)
+  Rendered pages/_opt_ins.html.erb (0.1ms)
+  Rendered pages/home.html.erb within layouts/application (55.2ms)
+  Rendered layouts/_scripts.html.erb (1.3ms)
+  Rendered navigation/_navbar.html.erb (2.2ms)
+  Rendered navigation/_footer.html.erb (1.3ms)
+Completed 200 OK in 174ms (Views: 170.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-08 01:24:00 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_featured_in.html.erb (3.2ms)
+  Rendered pages/_explainer.html.erb (0.4ms)
+  Rendered pages/_disrupting_feedback_industry.html.erb (3.8ms)
+  Rendered pages/_what_is_vyb.html.erb (1.2ms)
+  Rendered pages/_features.html.erb (0.3ms)
+  Rendered pages/_opt_ins.html.erb (0.3ms)
+  Rendered pages/_team.html.erb (5.0ms)
+  Rendered pages/_opt_ins.html.erb (0.1ms)
+  Rendered pages/home.html.erb within layouts/application (29.0ms)
+  Rendered layouts/_scripts.html.erb (0.7ms)
+  Rendered navigation/_navbar.html.erb (2323.0ms)
+  Rendered navigation/_footer.html.erb (1.8ms)
+Completed 200 OK in 2901ms (Views: 2899.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-08 01:29:09 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_featured_in.html.erb (5.3ms)
+  Rendered pages/_explainer.html.erb (0.5ms)
+  Rendered pages/_disrupting_feedback_industry.html.erb (2.9ms)
+  Rendered pages/_what_is_vyb.html.erb (1.6ms)
+  Rendered pages/_features.html.erb (0.4ms)
+  Rendered pages/_opt_ins.html.erb (0.5ms)
+  Rendered pages/_team.html.erb (8.9ms)
+  Rendered pages/_opt_ins.html.erb (0.1ms)
+  Rendered pages/home.html.erb within layouts/application (55.5ms)
+  Rendered layouts/_scripts.html.erb (0.7ms)
+  Rendered navigation/_navbar.html.erb (362.0ms)
+Completed 500 Internal Server Error in 499ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `meetTheTeam' for #<#<Class:0x007fa7cfde9350>:0x007fa7d94ba3b0>):
+    21:       </li>
+    22: 
+    23:       <li class="nav-item">
+    24:         <%= link_to 'About Us', "#{meetTheTeam}" , class: 'nav-link btn turquoise-btn' %>
+    25:       </li>
+    26: 
+    27:       <li class="nav-item">
+  
+app/views/navigation/_navbar.html.erb:24:in `_app_views_navigation__navbar_html_erb__994463606552934940_70179431559620'
+app/views/layouts/application.html.erb:42:in `_app_views_layouts_application_html_erb__4474586988095980537_70179440904720'
+Started GET "/" for 127.0.0.1 at 2018-07-08 01:29:17 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_featured_in.html.erb (3.3ms)
+  Rendered pages/_explainer.html.erb (0.4ms)
+  Rendered pages/_disrupting_feedback_industry.html.erb (3.2ms)
+  Rendered pages/_what_is_vyb.html.erb (1.2ms)
+  Rendered pages/_features.html.erb (0.3ms)
+  Rendered pages/_opt_ins.html.erb (0.3ms)
+  Rendered pages/_team.html.erb (4.7ms)
+  Rendered pages/_opt_ins.html.erb (0.1ms)
+  Rendered pages/home.html.erb within layouts/application (28.7ms)
+  Rendered layouts/_scripts.html.erb (0.9ms)
+  Rendered navigation/_navbar.html.erb (2.4ms)
+  Rendered navigation/_footer.html.erb (1.5ms)
+Completed 200 OK in 118ms (Views: 116.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-08 01:29:22 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_featured_in.html.erb (8.0ms)
+  Rendered pages/_explainer.html.erb (0.5ms)
+  Rendered pages/_disrupting_feedback_industry.html.erb (3.6ms)
+  Rendered pages/_what_is_vyb.html.erb (1.8ms)
+  Rendered pages/_features.html.erb (0.3ms)
+  Rendered pages/_opt_ins.html.erb (0.4ms)
+  Rendered pages/_team.html.erb (5.0ms)
+  Rendered pages/_opt_ins.html.erb (0.1ms)
+  Rendered pages/home.html.erb within layouts/application (40.7ms)
+  Rendered layouts/_scripts.html.erb (1.0ms)
+  Rendered navigation/_navbar.html.erb (2.9ms)
+  Rendered navigation/_footer.html.erb (1.1ms)
+Completed 200 OK in 120ms (Views: 117.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-08 01:29:40 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_featured_in.html.erb (4.4ms)
+  Rendered pages/_explainer.html.erb (0.5ms)
+  Rendered pages/_disrupting_feedback_industry.html.erb (3.7ms)
+  Rendered pages/_what_is_vyb.html.erb (1.3ms)
+  Rendered pages/_features.html.erb (0.3ms)
+  Rendered pages/_opt_ins.html.erb (0.4ms)
+  Rendered pages/_team.html.erb (5.1ms)
+  Rendered pages/_opt_ins.html.erb (0.1ms)
+  Rendered pages/home.html.erb within layouts/application (32.0ms)
+  Rendered layouts/_scripts.html.erb (0.7ms)
+  Rendered navigation/_navbar.html.erb (1.6ms)
+  Rendered navigation/_footer.html.erb (1.3ms)
+Completed 200 OK in 97ms (Views: 94.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-08 01:29:53 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_featured_in.html.erb (3.4ms)
+  Rendered pages/_explainer.html.erb (0.6ms)
+  Rendered pages/_disrupting_feedback_industry.html.erb (3.7ms)
+  Rendered pages/_what_is_vyb.html.erb (1.4ms)
+  Rendered pages/_features.html.erb (0.3ms)
+  Rendered pages/_opt_ins.html.erb (0.5ms)
+  Rendered pages/_team.html.erb (6.7ms)
+  Rendered pages/_opt_ins.html.erb (0.1ms)
+  Rendered pages/home.html.erb within layouts/application (33.6ms)
+  Rendered layouts/_scripts.html.erb (0.7ms)
+  Rendered navigation/_navbar.html.erb (1.5ms)
+  Rendered navigation/_footer.html.erb (1.3ms)
+Completed 200 OK in 102ms (Views: 99.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-08 01:30:27 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_featured_in.html.erb (4.4ms)
+  Rendered pages/_explainer.html.erb (0.5ms)
+  Rendered pages/_disrupting_feedback_industry.html.erb (4.7ms)
+  Rendered pages/_what_is_vyb.html.erb (1.8ms)
+  Rendered pages/_features.html.erb (0.3ms)
+  Rendered pages/_opt_ins.html.erb (0.4ms)
+  Rendered pages/_team.html.erb (6.0ms)
+  Rendered pages/_opt_ins.html.erb (0.1ms)
+  Rendered pages/home.html.erb within layouts/application (34.7ms)
+  Rendered layouts/_scripts.html.erb (0.7ms)
+  Rendered navigation/_navbar.html.erb (1.6ms)
+  Rendered navigation/_footer.html.erb (1.0ms)
+Completed 200 OK in 106ms (Views: 103.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-08 01:36:00 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_featured_in.html.erb (5.0ms)
+  Rendered pages/_explainer.html.erb (1.0ms)
+  Rendered pages/_disrupting_feedback_industry.html.erb (3.8ms)
+  Rendered pages/_what_is_vyb.html.erb (2.1ms)
+  Rendered pages/_features.html.erb (0.5ms)
+  Rendered pages/_opt_ins.html.erb (0.4ms)
+  Rendered pages/_team.html.erb (6.0ms)
+  Rendered pages/home.html.erb within layouts/application (44.2ms)
+Completed 500 Internal Server Error in 53ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial pages/_crypto_information, application/_crypto_information with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/Adit/Desktop/vyb-website/app/views"
+  * "/Library/Ruby/Gems/2.3.0/gems/devise-4.3.0/app/views"
+):
+    51:   <%= render 'team' %>
+    52: </div>
+    53: 
+    54: <%= render 'crypto_information' %>
+    55: 
+    56: <%= render 'opt_ins' %>
+  
+app/views/pages/home.html.erb:54:in `_app_views_pages_home_html_erb___531961981447095790_70179372629640'
+Started GET "/" for 127.0.0.1 at 2018-07-08 01:37:57 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_featured_in.html.erb (4.4ms)
+  Rendered pages/_explainer.html.erb (0.5ms)
+  Rendered pages/_disrupting_feedback_industry.html.erb (3.6ms)
+  Rendered pages/_what_is_vyb.html.erb (1.3ms)
+  Rendered pages/_features.html.erb (0.3ms)
+  Rendered pages/_opt_ins.html.erb (0.4ms)
+  Rendered pages/_team.html.erb (7.0ms)
+  Rendered pages/home.html.erb within layouts/application (43.6ms)
+Completed 500 Internal Server Error in 53ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial pages/__crypto_information, application/__crypto_information with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/Adit/Desktop/vyb-website/app/views"
+  * "/Library/Ruby/Gems/2.3.0/gems/devise-4.3.0/app/views"
+):
+    51:   <%= render 'team' %>
+    52: </div>
+    53: 
+    54: <%= render '_crypto_information' %>
+    55: 
+    56: <%= render 'opt_ins' %>
+  
+app/views/pages/home.html.erb:54:in `_app_views_pages_home_html_erb___531961981447095790_70179448328140'
+Started GET "/" for 127.0.0.1 at 2018-07-08 01:38:25 -0400
+  [1m[35m (41.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_featured_in.html.erb (4.1ms)
+  Rendered pages/_explainer.html.erb (0.6ms)
+  Rendered pages/_disrupting_feedback_industry.html.erb (4.4ms)
+  Rendered pages/_what_is_vyb.html.erb (1.4ms)
+  Rendered pages/_features.html.erb (0.3ms)
+  Rendered pages/_opt_ins.html.erb (0.4ms)
+  Rendered pages/_team.html.erb (5.5ms)
+  Rendered pages/home.html.erb within layouts/application (1843.5ms)
+Completed 500 Internal Server Error in 1879ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial pages/_crypto_information, application/_crypto_information with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/Adit/Desktop/vyb-website/app/views"
+  * "/Library/Ruby/Gems/2.3.0/gems/devise-4.3.0/app/views"
+):
+    51:   <%= render 'team' %>
+    52: </div>
+    53: 
+    54: <%= render 'crypto_information' %>
+    55: 
+    56: <%= render 'opt_ins' %>
+  
+app/views/pages/home.html.erb:54:in `_app_views_pages_home_html_erb___3455075312168780910_70169252158400'
+Started GET "/" for 127.0.0.1 at 2018-07-08 01:40:57 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_featured_in.html.erb (4.1ms)
+  Rendered pages/_explainer.html.erb (0.9ms)
+  Rendered pages/_disrupting_feedback_industry.html.erb (3.9ms)
+  Rendered pages/_what_is_vyb.html.erb (1.6ms)
+  Rendered pages/_features.html.erb (0.3ms)
+  Rendered pages/_opt_ins.html.erb (0.4ms)
+  Rendered pages/_team.html.erb (6.1ms)
+  Rendered pages/home.html.erb within layouts/application (40.3ms)
+Completed 500 Internal Server Error in 49ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial pages/_crypto_information, application/_crypto_information with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/Adit/Desktop/vyb-website/app/views"
+  * "/Library/Ruby/Gems/2.3.0/gems/devise-4.3.0/app/views"
+):
+    51:   <%= render 'team' %>
+    52: </div>
+    53: 
+    54: <%= render 'crypto_information' %>
+    55: 
+    56: <%= render 'opt_ins' %>
+  
+app/views/pages/home.html.erb:54:in `_app_views_pages_home_html_erb___3455075312168780910_70169273619840'
+Started GET "/" for 127.0.0.1 at 2018-07-08 01:43:16 -0400
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_featured_in.html.erb (3.8ms)
+  Rendered pages/_explainer.html.erb (0.6ms)
+  Rendered pages/_disrupting_feedback_industry.html.erb (2.8ms)
+  Rendered pages/_what_is_vyb.html.erb (1.3ms)
+  Rendered pages/_features.html.erb (0.3ms)
+  Rendered pages/_opt_ins.html.erb (0.4ms)
+  Rendered pages/_team.html.erb (8.4ms)
+  Rendered pages/home.html.erb within layouts/application (1789.9ms)
+Completed 500 Internal Server Error in 1825ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial pages/_crypto_information, application/_crypto_information with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/Adit/Desktop/vyb-website/app/views"
+  * "/Library/Ruby/Gems/2.3.0/gems/devise-4.3.0/app/views"
+):
+    51:   <%= render 'team' %>
+    52: </div>
+    53: 
+    54: <%= render 'crypto_information' %>
+    55: 
+    56: <%= render 'opt_ins' %>
+  
+app/views/pages/home.html.erb:54:in `_app_views_pages_home_html_erb___448148025498687316_70334305173760'
+Started GET "/" for 127.0.0.1 at 2018-07-08 01:44:47 -0400
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_featured_in.html.erb (3.6ms)
+  Rendered pages/_explainer.html.erb (0.5ms)
+  Rendered pages/_disrupting_feedback_industry.html.erb (3.0ms)
+  Rendered pages/_what_is_vyb.html.erb (2.1ms)
+  Rendered pages/_features.html.erb (0.4ms)
+  Rendered pages/_opt_ins.html.erb (0.4ms)
+  Rendered pages/_team.html.erb (5.3ms)
+  Rendered pages/_opt_ins.html.erb (0.1ms)
+  Rendered pages/home.html.erb within layouts/application (1803.8ms)
+  Rendered layouts/_scripts.html.erb (12.7ms)
+  Rendered navigation/_navbar.html.erb (2.7ms)
+  Rendered navigation/_footer.html.erb (1.4ms)
+Completed 200 OK in 1979ms (Views: 1953.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-08 01:50:07 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_featured_in.html.erb (4.2ms)
+  Rendered pages/_explainer.html.erb (0.9ms)
+  Rendered pages/_disrupting_feedback_industry.html.erb (3.2ms)
+  Rendered pages/_what_is_vyb.html.erb (1.3ms)
+  Rendered pages/_features.html.erb (0.3ms)
+  Rendered pages/_opt_ins.html.erb (0.3ms)
+  Rendered pages/_team.html.erb (5.9ms)
+  Rendered pages/home.html.erb within layouts/application (42.6ms)
+Completed 500 Internal Server Error in 52ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial pages/_crypto_Information, application/_crypto_Information with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/Adit/Desktop/vyb-website/app/views"
+  * "/Library/Ruby/Gems/2.3.0/gems/devise-4.3.0/app/views"
+):
+    51:   <%= render 'team' %>
+    52: </div>
+    53: 
+    54: <%= render 'crypto_Information' %>
+    55: 
+    56: <%= render 'opt_ins' %>
+  
+app/views/pages/home.html.erb:54:in `_app_views_pages_home_html_erb__12263729818287716_70349703885920'
+Started POST "/__web_console/repl_sessions/a2c3661b24ca8d0bf533c91210611e8b/trace" for 127.0.0.1 at 2018-07-08 01:50:19 -0400
+Started GET "/" for 127.0.0.1 at 2018-07-08 01:52:10 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_featured_in.html.erb (4.7ms)
+  Rendered pages/_explainer.html.erb (0.6ms)
+  Rendered pages/_disrupting_feedback_industry.html.erb (3.2ms)
+  Rendered pages/_what_is_vyb.html.erb (1.3ms)
+  Rendered pages/_features.html.erb (0.3ms)
+  Rendered pages/_opt_ins.html.erb (0.5ms)
+  Rendered pages/_team.html.erb (6.3ms)
+  Rendered pages/_team.html.erb (1.7ms)
+  Rendered pages/_opt_ins.html.erb (0.2ms)
+  Rendered pages/home.html.erb within layouts/application (37.3ms)
+  Rendered layouts/_scripts.html.erb (0.7ms)
+  Rendered navigation/_navbar.html.erb (1.4ms)
+  Rendered navigation/_footer.html.erb (1.0ms)
+Completed 200 OK in 110ms (Views: 107.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-08 01:56:11 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_featured_in.html.erb (6.7ms)
+  Rendered pages/_explainer.html.erb (0.9ms)
+  Rendered pages/_disrupting_feedback_industry.html.erb (4.5ms)
+  Rendered pages/_what_is_vyb.html.erb (1.4ms)
+  Rendered pages/_features.html.erb (0.3ms)
+  Rendered pages/_opt_ins.html.erb (0.3ms)
+  Rendered pages/_team.html.erb (4.8ms)
+  Rendered pages/_team.html.erb (1.8ms)
+  Rendered pages/_opt_ins.html.erb (0.1ms)
+  Rendered pages/home.html.erb within layouts/application (43.3ms)
+  Rendered layouts/_scripts.html.erb (0.8ms)
+  Rendered navigation/_navbar.html.erb (2.0ms)
+  Rendered navigation/_footer.html.erb (1.6ms)
+Completed 200 OK in 135ms (Views: 132.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-08 02:02:41 -0400
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_featured_in.html.erb (4.1ms)
+  Rendered pages/_explainer.html.erb (0.6ms)
+  Rendered pages/_disrupting_feedback_industry.html.erb (3.5ms)
+  Rendered pages/_what_is_vyb.html.erb (1.6ms)
+  Rendered pages/_features.html.erb (0.5ms)
+  Rendered pages/_opt_ins.html.erb (0.5ms)
+  Rendered pages/_team.html.erb (6.4ms)
+  Rendered pages/_team.html.erb (1.6ms)
+  Rendered pages/_opt_ins.html.erb (0.1ms)
+  Rendered pages/home.html.erb within layouts/application (2012.5ms)
+  Rendered layouts/_scripts.html.erb (14.4ms)
+  Rendered navigation/_navbar.html.erb (2.8ms)
+  Rendered navigation/_footer.html.erb (2.1ms)
+Completed 200 OK in 2205ms (Views: 2171.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-08 02:03:12 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_featured_in.html.erb (5.8ms)
+  Rendered pages/_explainer.html.erb (0.6ms)
+  Rendered pages/_disrupting_feedback_industry.html.erb (3.1ms)
+  Rendered pages/_what_is_vyb.html.erb (1.7ms)
+  Rendered pages/_features.html.erb (0.3ms)
+  Rendered pages/_opt_ins.html.erb (0.4ms)
+  Rendered pages/_team.html.erb (7.5ms)
+  Rendered pages/_crypto_information.html.erb (1.5ms)
+  Rendered pages/_opt_ins.html.erb (0.1ms)
+  Rendered pages/home.html.erb within layouts/application (42.8ms)
+  Rendered layouts/_scripts.html.erb (1.3ms)
+  Rendered navigation/_navbar.html.erb (2.2ms)
+  Rendered navigation/_footer.html.erb (1.4ms)
+Completed 200 OK in 123ms (Views: 120.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-08 02:03:59 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_featured_in.html.erb (3.7ms)
+  Rendered pages/_explainer.html.erb (0.5ms)
+  Rendered pages/_disrupting_feedback_industry.html.erb (3.2ms)
+  Rendered pages/_what_is_vyb.html.erb (1.6ms)
+  Rendered pages/_features.html.erb (0.3ms)
+  Rendered pages/_opt_ins.html.erb (0.4ms)
+  Rendered pages/_team.html.erb (5.6ms)
+  Rendered pages/_crypto_information.html.erb (1.1ms)
+  Rendered pages/_opt_ins.html.erb (0.1ms)
+  Rendered pages/home.html.erb within layouts/application (35.5ms)
+  Rendered layouts/_scripts.html.erb (1.1ms)
+  Rendered navigation/_navbar.html.erb (1.7ms)
+  Rendered navigation/_footer.html.erb (1.0ms)
+Completed 200 OK in 106ms (Views: 103.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-08 02:04:20 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_featured_in.html.erb (3.3ms)
+  Rendered pages/_explainer.html.erb (0.5ms)
+  Rendered pages/_disrupting_feedback_industry.html.erb (3.4ms)
+  Rendered pages/_what_is_vyb.html.erb (1.3ms)
+  Rendered pages/_features.html.erb (0.3ms)
+  Rendered pages/_opt_ins.html.erb (0.4ms)
+  Rendered pages/_team.html.erb (5.1ms)
+  Rendered pages/_crypto_information.html.erb (0.9ms)
+  Rendered pages/_opt_ins.html.erb (0.1ms)
+  Rendered pages/home.html.erb within layouts/application (32.2ms)
+  Rendered layouts/_scripts.html.erb (0.7ms)
+  Rendered navigation/_navbar.html.erb (1.5ms)
+  Rendered navigation/_footer.html.erb (1.0ms)
+Completed 200 OK in 96ms (Views: 93.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-08 02:04:44 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_featured_in.html.erb (3.9ms)
+  Rendered pages/_explainer.html.erb (0.4ms)
+  Rendered pages/_disrupting_feedback_industry.html.erb (3.6ms)
+  Rendered pages/_what_is_vyb.html.erb (1.5ms)
+  Rendered pages/_features.html.erb (0.5ms)
+  Rendered pages/_opt_ins.html.erb (0.6ms)
+  Rendered pages/_team.html.erb (6.8ms)
+  Rendered pages/_crypto_information.html.erb (1.0ms)
+  Rendered pages/_opt_ins.html.erb (0.2ms)
+  Rendered pages/home.html.erb within layouts/application (38.6ms)
+  Rendered layouts/_scripts.html.erb (0.8ms)
+  Rendered navigation/_navbar.html.erb (1.7ms)
+  Rendered navigation/_footer.html.erb (1.2ms)
+Completed 200 OK in 118ms (Views: 115.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-08 02:07:58 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_featured_in.html.erb (3.7ms)
+  Rendered pages/_explainer.html.erb (0.6ms)
+  Rendered pages/_disrupting_feedback_industry.html.erb (5.5ms)
+  Rendered pages/_what_is_vyb.html.erb (1.6ms)
+  Rendered pages/_features.html.erb (0.3ms)
+  Rendered pages/_opt_ins.html.erb (0.4ms)
+  Rendered pages/_team.html.erb (6.0ms)
+  Rendered pages/_crypto_information.html.erb (0.9ms)
+  Rendered pages/_opt_ins.html.erb (0.1ms)
+  Rendered pages/home.html.erb within layouts/application (37.5ms)
+  Rendered layouts/_scripts.html.erb (2.5ms)
+  Rendered navigation/_navbar.html.erb (2.0ms)
+  Rendered navigation/_footer.html.erb (1.6ms)
+Completed 200 OK in 642ms (Views: 639.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-08 02:08:18 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_featured_in.html.erb (10.1ms)
+  Rendered pages/home.html.erb within layouts/application (14.9ms)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (The asset "abc.png" is not present in the asset pipeline.):
+    3:   <div class='d-flex flex-wrap flex-row justify-content-around align-items-center'>
+    4: 
+    5:     <a href="http://6abc.com/technology/" target='_blank' class='partner'>
+    6:       <%= image_tag 'abc.png', class: ' reduce' %>
+    7:     </a>
+    8:     
+    9:     <a href="http://cbs.com/" target='_blank' class='partner'>
+  
+app/views/pages/_featured_in.html.erb:6:in `_app_views_pages__featured_in_html_erb__3323706100958677363_70359168783540'
+app/views/pages/home.html.erb:36:in `_app_views_pages_home_html_erb__1721759038011656802_70359155942680'
+Started GET "/" for 127.0.0.1 at 2018-07-08 02:10:43 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_featured_in.html.erb (4.9ms)
+  Rendered pages/_explainer.html.erb (0.5ms)
+  Rendered pages/_disrupting_feedback_industry.html.erb (2.9ms)
+  Rendered pages/_what_is_vyb.html.erb (1.5ms)
+  Rendered pages/_features.html.erb (0.3ms)
+  Rendered pages/_opt_ins.html.erb (0.5ms)
+  Rendered pages/_team.html.erb (5.8ms)
+  Rendered pages/_crypto_information.html.erb (0.8ms)
+  Rendered pages/_opt_ins.html.erb (0.1ms)
+  Rendered pages/home.html.erb within layouts/application (38.3ms)
+  Rendered layouts/_scripts.html.erb (0.7ms)
+  Rendered navigation/_navbar.html.erb (1.5ms)
+  Rendered navigation/_footer.html.erb (1.0ms)
+Completed 200 OK in 608ms (Views: 605.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-08 02:11:51 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_featured_in.html.erb (4.2ms)
+  Rendered pages/_explainer.html.erb (0.6ms)
+  Rendered pages/_disrupting_feedback_industry.html.erb (3.3ms)
+  Rendered pages/_what_is_vyb.html.erb (1.1ms)
+  Rendered pages/_features.html.erb (0.3ms)
+  Rendered pages/_opt_ins.html.erb (0.3ms)
+  Rendered pages/_team.html.erb (5.0ms)
+  Rendered pages/_crypto_information.html.erb (1899.3ms)
+  Rendered pages/_opt_ins.html.erb (0.1ms)
+  Rendered pages/home.html.erb within layouts/application (1932.7ms)
+  Rendered layouts/_scripts.html.erb (0.7ms)
+  Rendered navigation/_navbar.html.erb (1.5ms)
+  Rendered navigation/_footer.html.erb (1.0ms)
+Completed 200 OK in 1997ms (Views: 1995.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-08 02:12:09 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_featured_in.html.erb (3.8ms)
+  Rendered pages/_explainer.html.erb (0.7ms)
+  Rendered pages/_disrupting_feedback_industry.html.erb (2.8ms)
+  Rendered pages/_what_is_vyb.html.erb (1.2ms)
+  Rendered pages/_features.html.erb (0.3ms)
+  Rendered pages/_opt_ins.html.erb (0.4ms)
+  Rendered pages/_team.html.erb (6.3ms)
+  Rendered pages/_crypto_information.html.erb (2.7ms)
+  Rendered pages/_opt_ins.html.erb (0.1ms)
+  Rendered pages/home.html.erb within layouts/application (38.6ms)
+  Rendered layouts/_scripts.html.erb (0.7ms)
+  Rendered navigation/_navbar.html.erb (1.5ms)
+  Rendered navigation/_footer.html.erb (0.9ms)
+Completed 200 OK in 111ms (Views: 108.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-08 02:13:28 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_featured_in.html.erb (4.1ms)
+  Rendered pages/_explainer.html.erb (0.6ms)
+  Rendered pages/_disrupting_feedback_industry.html.erb (2.9ms)
+  Rendered pages/_what_is_vyb.html.erb (1.7ms)
+  Rendered pages/_features.html.erb (0.5ms)
+  Rendered pages/_opt_ins.html.erb (0.5ms)
+  Rendered pages/_team.html.erb (6.3ms)
+  Rendered pages/_crypto_information.html.erb (2.8ms)
+  Rendered pages/_opt_ins.html.erb (0.2ms)
+  Rendered pages/home.html.erb within layouts/application (40.6ms)
+  Rendered layouts/_scripts.html.erb (0.7ms)
+  Rendered navigation/_navbar.html.erb (1.6ms)
+  Rendered navigation/_footer.html.erb (1.1ms)
+Completed 200 OK in 141ms (Views: 138.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "//" for 127.0.0.1 at 2018-07-08 02:13:39 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_featured_in.html.erb (6.2ms)
+  Rendered pages/_explainer.html.erb (0.5ms)
+  Rendered pages/_disrupting_feedback_industry.html.erb (5.2ms)
+  Rendered pages/_what_is_vyb.html.erb (1.6ms)
+  Rendered pages/_features.html.erb (0.3ms)
+  Rendered pages/_opt_ins.html.erb (0.5ms)
+  Rendered pages/_team.html.erb (12.9ms)
+  Rendered pages/_crypto_information.html.erb (3.9ms)
+  Rendered pages/_opt_ins.html.erb (0.1ms)
+  Rendered pages/home.html.erb within layouts/application (56.2ms)
+  Rendered layouts/_scripts.html.erb (1.4ms)
+  Rendered navigation/_navbar.html.erb (2.0ms)
+  Rendered navigation/_footer.html.erb (1.2ms)
+Completed 200 OK in 169ms (Views: 162.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "//" for 127.0.0.1 at 2018-07-08 02:14:11 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_featured_in.html.erb (5.3ms)
+  Rendered pages/_explainer.html.erb (0.6ms)
+  Rendered pages/_disrupting_feedback_industry.html.erb (3.4ms)
+  Rendered pages/_what_is_vyb.html.erb (1.3ms)
+  Rendered pages/_features.html.erb (0.4ms)
+  Rendered pages/_opt_ins.html.erb (0.4ms)
+  Rendered pages/_team.html.erb (6.0ms)
+  Rendered pages/_crypto_information.html.erb (2.5ms)
+  Rendered pages/_opt_ins.html.erb (0.1ms)
+  Rendered pages/home.html.erb within layouts/application (39.2ms)
+  Rendered layouts/_scripts.html.erb (0.9ms)
+  Rendered navigation/_navbar.html.erb (1.8ms)
+  Rendered navigation/_footer.html.erb (1.3ms)
+Completed 200 OK in 122ms (Views: 119.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "//" for 127.0.0.1 at 2018-07-08 02:14:31 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_featured_in.html.erb (5.6ms)
+  Rendered pages/_explainer.html.erb (1.1ms)
+  Rendered pages/_disrupting_feedback_industry.html.erb (4.2ms)
+  Rendered pages/_what_is_vyb.html.erb (1.9ms)
+  Rendered pages/_features.html.erb (0.4ms)
+  Rendered pages/_opt_ins.html.erb (0.5ms)
+  Rendered pages/_team.html.erb (8.0ms)
+  Rendered pages/_crypto_information.html.erb (2.5ms)
+  Rendered pages/_opt_ins.html.erb (0.2ms)
+  Rendered pages/home.html.erb within layouts/application (43.1ms)
+  Rendered layouts/_scripts.html.erb (1.1ms)
+  Rendered navigation/_navbar.html.erb (2.5ms)
+  Rendered navigation/_footer.html.erb (1.6ms)
+Completed 200 OK in 138ms (Views: 135.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "//" for 127.0.0.1 at 2018-07-08 02:14:56 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_featured_in.html.erb (4.3ms)
+  Rendered pages/_explainer.html.erb (0.5ms)
+  Rendered pages/_disrupting_feedback_industry.html.erb (3.4ms)
+  Rendered pages/_what_is_vyb.html.erb (1.7ms)
+  Rendered pages/_features.html.erb (0.5ms)
+  Rendered pages/_opt_ins.html.erb (0.6ms)
+  Rendered pages/_team.html.erb (7.5ms)
+  Rendered pages/_crypto_information.html.erb (2.1ms)
+  Rendered pages/_opt_ins.html.erb (0.1ms)
+  Rendered pages/home.html.erb within layouts/application (42.5ms)
+  Rendered layouts/_scripts.html.erb (106.6ms)
+  Rendered navigation/_navbar.html.erb (1.6ms)
+  Rendered navigation/_footer.html.erb (1.6ms)
+Completed 200 OK in 236ms (Views: 234.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "//" for 127.0.0.1 at 2018-07-08 02:15:09 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_featured_in.html.erb (3.4ms)
+  Rendered pages/_explainer.html.erb (0.7ms)
+  Rendered pages/_disrupting_feedback_industry.html.erb (3.4ms)
+  Rendered pages/_what_is_vyb.html.erb (1.2ms)
+  Rendered pages/_features.html.erb (0.3ms)
+  Rendered pages/_opt_ins.html.erb (0.4ms)
+  Rendered pages/_team.html.erb (4.6ms)
+  Rendered pages/_crypto_information.html.erb (3.1ms)
+  Rendered pages/_opt_ins.html.erb (0.1ms)
+  Rendered pages/home.html.erb within layouts/application (35.5ms)
+  Rendered layouts/_scripts.html.erb (0.7ms)
+  Rendered navigation/_navbar.html.erb (1.4ms)
+  Rendered navigation/_footer.html.erb (1.3ms)
+Completed 200 OK in 100ms (Views: 97.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "//" for 127.0.0.1 at 2018-07-08 02:15:25 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_featured_in.html.erb (3.6ms)
+  Rendered pages/_explainer.html.erb (0.7ms)
+  Rendered pages/_disrupting_feedback_industry.html.erb (3.3ms)
+  Rendered pages/_what_is_vyb.html.erb (1.2ms)
+  Rendered pages/_features.html.erb (0.3ms)
+  Rendered pages/_opt_ins.html.erb (0.3ms)
+  Rendered pages/_team.html.erb (5.3ms)
+  Rendered pages/_crypto_information.html.erb (2.2ms)
+  Rendered pages/_opt_ins.html.erb (0.1ms)
+  Rendered pages/home.html.erb within layouts/application (35.6ms)
+  Rendered layouts/_scripts.html.erb (0.9ms)
+  Rendered navigation/_navbar.html.erb (1.7ms)
+  Rendered navigation/_footer.html.erb (1.0ms)
+Completed 200 OK in 106ms (Views: 103.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "//" for 127.0.0.1 at 2018-07-08 02:15:59 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_featured_in.html.erb (6.0ms)
+  Rendered pages/_explainer.html.erb (0.8ms)
+  Rendered pages/_disrupting_feedback_industry.html.erb (4.6ms)
+  Rendered pages/_what_is_vyb.html.erb (1.7ms)
+  Rendered pages/_features.html.erb (0.5ms)
+  Rendered pages/_opt_ins.html.erb (0.6ms)
+  Rendered pages/_team.html.erb (20.4ms)
+  Rendered pages/_crypto_information.html.erb (3.2ms)
+  Rendered pages/_opt_ins.html.erb (0.2ms)
+  Rendered pages/home.html.erb within layouts/application (69.2ms)
+  Rendered layouts/_scripts.html.erb (1.0ms)
+  Rendered navigation/_navbar.html.erb (3.0ms)
+  Rendered navigation/_footer.html.erb (1.8ms)
+Completed 200 OK in 205ms (Views: 200.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "//" for 127.0.0.1 at 2018-07-08 02:16:13 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_featured_in.html.erb (3.7ms)
+  Rendered pages/_explainer.html.erb (0.6ms)
+  Rendered pages/_disrupting_feedback_industry.html.erb (3.4ms)
+  Rendered pages/_what_is_vyb.html.erb (1.3ms)
+  Rendered pages/_features.html.erb (0.3ms)
+  Rendered pages/_opt_ins.html.erb (0.5ms)
+  Rendered pages/_team.html.erb (5.3ms)
+  Rendered pages/_crypto_information.html.erb (2.0ms)
+  Rendered pages/_opt_ins.html.erb (0.1ms)
+  Rendered pages/home.html.erb within layouts/application (35.9ms)
+  Rendered layouts/_scripts.html.erb (0.9ms)
+  Rendered navigation/_navbar.html.erb (1.6ms)
+  Rendered navigation/_footer.html.erb (1.1ms)
+Completed 200 OK in 104ms (Views: 101.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "//" for 127.0.0.1 at 2018-07-08 02:16:58 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_featured_in.html.erb (5.2ms)
+  Rendered pages/_explainer.html.erb (0.9ms)
+  Rendered pages/_disrupting_feedback_industry.html.erb (4.7ms)
+  Rendered pages/_what_is_vyb.html.erb (1.3ms)
+  Rendered pages/_features.html.erb (0.3ms)
+  Rendered pages/_opt_ins.html.erb (0.5ms)
+  Rendered pages/_team.html.erb (7.0ms)
+  Rendered pages/_crypto_information.html.erb (2.3ms)
+  Rendered pages/_opt_ins.html.erb (0.1ms)
+  Rendered pages/home.html.erb within layouts/application (42.6ms)
+  Rendered layouts/_scripts.html.erb (1.0ms)
+  Rendered navigation/_navbar.html.erb (1.6ms)
+  Rendered navigation/_footer.html.erb (1.2ms)
+Completed 200 OK in 117ms (Views: 113.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "//" for 127.0.0.1 at 2018-07-08 02:17:14 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_featured_in.html.erb (3.7ms)
+  Rendered pages/_explainer.html.erb (0.9ms)
+  Rendered pages/_disrupting_feedback_industry.html.erb (5.1ms)
+  Rendered pages/_what_is_vyb.html.erb (1.9ms)
+  Rendered pages/_features.html.erb (0.4ms)
+  Rendered pages/_opt_ins.html.erb (0.4ms)
+  Rendered pages/_team.html.erb (5.7ms)
+  Rendered pages/_crypto_information.html.erb (2.1ms)
+  Rendered pages/_opt_ins.html.erb (0.4ms)
+  Rendered pages/home.html.erb within layouts/application (42.5ms)
+  Rendered layouts/_scripts.html.erb (0.7ms)
+  Rendered navigation/_navbar.html.erb (1.3ms)
+  Rendered navigation/_footer.html.erb (0.9ms)
+Completed 200 OK in 208ms (Views: 205.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "//" for 127.0.0.1 at 2018-07-08 02:17:49 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_featured_in.html.erb (4.4ms)
+  Rendered pages/_explainer.html.erb (0.7ms)
+  Rendered pages/_disrupting_feedback_industry.html.erb (3.5ms)
+  Rendered pages/_what_is_vyb.html.erb (1.7ms)
+  Rendered pages/_features.html.erb (0.3ms)
+  Rendered pages/_opt_ins.html.erb (0.4ms)
+  Rendered pages/_team.html.erb (8.0ms)
+  Rendered pages/_crypto_information.html.erb (2.3ms)
+  Rendered pages/_opt_ins.html.erb (0.1ms)
+  Rendered pages/home.html.erb within layouts/application (40.4ms)
+  Rendered layouts/_scripts.html.erb (1.0ms)
+  Rendered navigation/_navbar.html.erb (1.8ms)
+  Rendered navigation/_footer.html.erb (1.0ms)
+Completed 200 OK in 113ms (Views: 110.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "//" for 127.0.0.1 at 2018-07-08 02:18:02 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_featured_in.html.erb (4.4ms)
+  Rendered pages/_explainer.html.erb (0.6ms)
+  Rendered pages/_disrupting_feedback_industry.html.erb (3.5ms)
+  Rendered pages/_what_is_vyb.html.erb (1.5ms)
+  Rendered pages/_features.html.erb (0.3ms)
+  Rendered pages/_opt_ins.html.erb (0.4ms)
+  Rendered pages/_team.html.erb (6.6ms)
+  Rendered pages/_crypto_information.html.erb (2.5ms)
+  Rendered pages/_opt_ins.html.erb (0.1ms)
+  Rendered pages/home.html.erb within layouts/application (40.2ms)
+  Rendered layouts/_scripts.html.erb (1.8ms)
+  Rendered navigation/_navbar.html.erb (2.7ms)
+  Rendered navigation/_footer.html.erb (1.1ms)
+Completed 200 OK in 116ms (Views: 113.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "//" for 127.0.0.1 at 2018-07-08 02:18:40 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_featured_in.html.erb (5.0ms)
+  Rendered pages/_explainer.html.erb (0.5ms)
+  Rendered pages/_disrupting_feedback_industry.html.erb (3.3ms)
+  Rendered pages/_what_is_vyb.html.erb (1.3ms)
+  Rendered pages/_features.html.erb (0.5ms)
+  Rendered pages/_opt_ins.html.erb (0.4ms)
+  Rendered pages/_team.html.erb (5.0ms)
+  Rendered pages/_crypto_information.html.erb (1.8ms)
+  Rendered pages/_opt_ins.html.erb (0.1ms)
+  Rendered pages/home.html.erb within layouts/application (37.6ms)
+  Rendered layouts/_scripts.html.erb (1.1ms)
+  Rendered navigation/_navbar.html.erb (1.4ms)
+  Rendered navigation/_footer.html.erb (1.0ms)
+Completed 200 OK in 119ms (Views: 116.2ms | ActiveRecord: 0.0ms)
+
+
