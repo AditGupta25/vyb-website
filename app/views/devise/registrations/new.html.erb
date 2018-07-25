@@ -1,0 +1,47 @@
+<section class="jumbotron jumbotron-fluid m-0">
+  <div class='headline-image' style='background-image: url(<%= image_url("haircut.png") %>)'></div>
+
+
+  <div class='row'>
+    <div class='col-md-6 offset-md-3 col-lg-4 offset-lg-4'>
+      <div class='login-box'>
+        <p class='eco-green text-center'>Join the crowdsale</p>
+        <%= form_for(resource, as: resource_name, url: registration_path(resource_name), html: { class: 'registration new_user' }) do |f| %>
+
+          <%= devise_error_messages! %>
+
+          <div class="field form-group">
+            <%= f.label :email %>
+            <%= f.email_field :email, autofocus: true, class: "form-control" %>
+          </div>
+
+          <div class="field form-group">
+            <label for="password">
+              Password
+              <% if @minimum_password_length %>
+                <small class="text-muted">
+                  (<%= @minimum_password_length %> characters minimum)
+                </small>
+              <% end %>
+            </label>
+
+            <%= f.password_field :password, autocomplete: "off", class: "form-control" %>
+          </div>
+
+          <div class="field form-group">
+            <%= f.label :password_confirmation %>
+            <%= f.password_field :password_confirmation, autocomplete: "off", class: "form-control"%>
+          </div>
+
+          <%= f.hidden_field :referrer_id, value: @referrer_id %>
+
+          <div class="actions">
+            <%= f.submit "Sign up", class: 'btn btn-block turquoise-btn' %>
+          </div>
+        <% end %>
+
+        <%= render "devise/shared/links" %>
+      </div>
+    </div>
+  </div>
+</section>
